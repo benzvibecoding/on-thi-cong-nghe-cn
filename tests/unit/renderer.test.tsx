@@ -28,8 +28,11 @@ describe("renderer", () => {
 
   it("QuestionView hien 4 lua chon va huy hieu chua kiem duyet", () => {
     render(<QuestionView question={mcq} />);
-    for (const letter of ["A.", "B.", "C.", "D."]) {
-      expect(screen.getByText(letter)).toBeTruthy();
+    for (const text of ["2 A", "0,5 A", "72 A", "18 A"]) {
+      expect(screen.getByText(text)).toBeTruthy();
+    }
+    for (const letter of ["A", "B", "C", "D"]) {
+      expect(screen.getAllByText(letter).length).toBeGreaterThanOrEqual(1);
     }
     expect(screen.getByText("Chưa kiểm duyệt")).toBeTruthy();
   });

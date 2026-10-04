@@ -45,8 +45,11 @@ export function QuestionView({ question, showAnswer = false }: QuestionViewProps
               key={letter}
               className="touch-target flex items-start gap-2 rounded-lg border border-[var(--line)] px-3 py-2"
             >
-              <span aria-hidden="true" className="font-mono font-bold">
-                {letter}.
+              <span
+                aria-hidden="true"
+                className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-[var(--bg-sunken)] font-mono text-sm font-bold"
+              >
+                {letter}
               </span>
               <MathText text={question.mcq!.options[i]!} />
             </li>

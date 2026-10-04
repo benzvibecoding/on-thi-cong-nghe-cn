@@ -10,7 +10,7 @@ import { SwRegister } from "@/components/SwRegister";
 const beVietnamPro = Be_Vietnam_Pro({
   variable: "--font-bevnpro",
   subsets: ["vietnamese", "latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
 });
 
@@ -33,12 +33,27 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#faf7f1" },
-    { media: "(prefers-color-scheme: dark)", color: "#16130e" },
+    { media: "(prefers-color-scheme: light)", color: "#f4f6f8" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1220" },
   ],
 };
 
 const THEME_INIT_SCRIPT = `(function(){try{var s=localStorage.getItem("cncn-theme");var d=s==="dark"||(s!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.classList.toggle("dark",d);}catch(e){}})();`;
+
+function BrandMark() {
+  return (
+    <span
+      aria-hidden="true"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--accent)]"
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-ink)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 17h4V7h4v10h4" />
+        <circle cx="4" cy="17" r="1.6" fill="var(--accent-ink)" stroke="none" />
+        <circle cx="20" cy="17" r="1.6" fill="var(--accent-ink)" stroke="none" />
+      </svg>
+    </span>
+  );
+}
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -54,18 +69,25 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         >
           Bỏ qua tới nội dung chính
         </a>
-        <header className="relative overflow-hidden border-b border-[var(--line)]">
-          <div className="pcb-traces absolute inset-0" aria-hidden="true" />
-          <div className="relative mx-auto flex w-full max-w-5xl items-center justify-between gap-3 px-4 py-3">
-            <div>
-              <p className="text-lg font-bold leading-tight">{APP_CONFIG.appName}</p>
-              <p className="text-sm text-[var(--ink-muted)]">{APP_CONFIG.tagline}</p>
-            </div>
+        <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--bg)]/90 backdrop-blur">
+          <div aria-hidden="true" className="h-[3px] bg-[var(--accent)]" />
+          <div className="mx-auto flex w-full max-w-5xl items-center justify-between gap-3 px-4 py-2.5">
+            <Link href="/" className="flex items-center gap-2.5" aria-label={`${APP_CONFIG.appName} — trang chủ`}>
+              <BrandMark />
+              <span>
+                <span className="block text-[17px] font-extrabold leading-tight tracking-tight">
+                  {APP_CONFIG.appName}
+                </span>
+                <span className="hidden text-[13px] text-[var(--ink-muted)] sm:block">
+                  {APP_CONFIG.tagline}
+                </span>
+              </span>
+            </Link>
             <div className="flex items-center gap-2">
               <Link
                 href="/tim-kiem"
                 aria-label="Tìm kiếm toàn app"
-                className="touch-target rounded-lg border border-[var(--line)] bg-[var(--bg-raised)] px-3 py-2 text-sm hover:bg-[var(--bg-sunken)]"
+                className="touch-target rounded-xl border border-[var(--line)] bg-[var(--bg-raised)] px-3 py-2 text-sm font-semibold hover:border-[var(--accent)]"
               >
                 Tìm kiếm
               </Link>
@@ -74,8 +96,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
         </header>
         <div className="mx-auto flex w-full max-w-5xl flex-1 gap-6 px-4 pb-24 pt-4 md:pb-10">
-          <aside className="hidden w-52 shrink-0 md:block">
-            <AppNav />
+          <aside className="hidden w-56 shrink-0 md:block">
+            <div className="sticky top-[68px]">
+              <AppNav />
+            </div>
           </aside>
           <main id="noi-dung-chinh" className="min-w-0 flex-1">
             {children}
@@ -84,10 +108,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <div className="md:hidden">
           <AppNav />
         </div>
-        <footer className="border-t border-[var(--line)] pb-24 md:pb-6">
-          <div className="mx-auto flex w-full max-w-5xl flex-wrap gap-x-4 gap-y-1 px-4 py-4 text-sm text-[var(--ink-muted)]">
+        <footer className="border-t border-[var(--line)] bg-[var(--bg-raised)] pb-24 md:pb-6">
+          <div className="mx-auto flex w-full max-w-5xl flex-col gap-2 px-4 py-5 text-sm text-[var(--ink-muted)]">
             <span>{APP_CONFIG.disclaimer}</span>
-            <nav aria-label="Liên kết pháp lý" className="flex flex-wrap gap-x-4">
+            <nav aria-label="Liên kết pháp lý" className="flex flex-wrap gap-x-4 gap-y-1">
               <Link className="underline" href="/thong-tin-ky-thi">Thông tin kỳ thi</Link>
               <Link className="underline" href="/chinh-sach-rieng-tu">Riêng tư</Link>
               <Link className="underline" href="/dieu-khoan">Điều khoản</Link>

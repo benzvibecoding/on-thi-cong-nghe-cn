@@ -17,7 +17,7 @@ interface MathTextProps {
  */
 export function MathText({ text, className }: MathTextProps) {
   return (
-    <div className={className}>
+    <div className={className ? `md ${className}` : "md"}>
       <ReactMarkdown remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex]}>
         {text}
       </ReactMarkdown>

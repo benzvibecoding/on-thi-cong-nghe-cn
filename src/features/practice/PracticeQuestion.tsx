@@ -75,8 +75,17 @@ export function PracticeQuestion({
                   reveal && selected && !isCorrect && "border-[var(--danger)]"
                 )}
               >
-                <span aria-hidden="true" className="font-mono font-bold">
-                  {letter}.
+                <span
+                  aria-hidden="true"
+                  className={cn(
+                    "flex h-7 w-7 shrink-0 items-center justify-center rounded-lg font-mono text-sm font-bold",
+                    !showFeedback && selected && "bg-[var(--accent)] text-[var(--accent-ink)]",
+                    !showFeedback && !selected && "bg-[var(--bg-sunken)]",
+                    reveal && isCorrect && "bg-[var(--accent)] text-[var(--accent-ink)]",
+                    reveal && selected && !isCorrect && "bg-[var(--bg-sunken)] text-[var(--danger)]"
+                  )}
+                >
+                  {letter}
                 </span>
                 <span className="flex-1">
                   <MathText text={question.mcq!.options[i]!} />

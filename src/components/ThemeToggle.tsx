@@ -18,7 +18,7 @@ export function ThemeToggle() {
       onClick={toggleTheme}
       aria-pressed={theme === "dark"}
       aria-label={theme === "dark" ? "Chuyển sang giao diện sáng" : "Chuyển sang giao diện tối"}
-      className="touch-target rounded-lg border border-[var(--line)] bg-[var(--bg-raised)] px-3 text-sm hover:bg-[var(--bg-sunken)]"
+      className="touch-target rounded-xl border border-[var(--line)] bg-[var(--bg-raised)] px-3 text-sm font-semibold hover:border-[var(--accent)]"
     >
       {theme === "dark" ? "Sáng" : "Tối"}
     </button>
