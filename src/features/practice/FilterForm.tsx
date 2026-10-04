@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { loadManifest } from "@/data/content-loader";
 import type { PacksManifest } from "@/domain/taxonomy";
-import { DEFAULT_FILTER, type PracticeFilter } from "@/domain/practice";
+import { DEFAULT_FILTER, type PracticeFilter, type StatusFilter } from "@/domain/practice";
 import type { QuestionLevel, QuestionType } from "@/domain/question-schema";
 import { LEVEL_LABEL } from "@/domain/exam-config";
 import { AppError } from "@/lib/errors";
@@ -14,6 +14,12 @@ interface FilterFormProps {
 }
 
 const TYPE_LABEL: Record<QuestionType, string> = { mcq: "Phần I (A–D)", tf4: "Phần II (Đúng/Sai)" };
+const STATUS_LABEL: Record<StatusFilter, string> = {
+  all: "Tất cả",
+  unseen: "Chưa làm",
+  wrong: "Đã sai (lần gần nhất)",
+  bookmarked: "Đã đánh dấu",
+};
 
 export function FilterForm({ defaultTopic, onStart }: FilterFormProps) {
   const [manifest, setManifest] = useState<PacksManifest | null>(null);
@@ -108,6 +114,20 @@ export function FilterForm({ defaultTopic, onStart }: FilterFormProps) {
             ))}
           </div>
         </fieldset>
+        <label className="flex flex-col gap-1 text-sm">
+          <span className="font-semibold">Trạng thái</span>
+          <select
+            value={filter.status}
+            onChange={(e) => setFilter((f) => ({ ...f, status: e.target.value as StatusFilter }))}
+            className="touch-target rounded-lg border border-[var(--line)] bg-[var(--bg)] px-3"
+          >
+            {(Object.keys(STATUS_LABEL) as StatusFilter[]).map((s) => (
+              <option key={s} value={s}>
+                {STATUS_LABEL[s]}
+              </option>
+            ))}
+          </select>
+        </label>
         <div className="flex flex-wrap items-center gap-4">
           <label className="flex items-center gap-2 text-sm">
             <span className="font-semibold">Số câu</span>

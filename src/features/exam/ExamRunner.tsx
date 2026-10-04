@@ -236,6 +236,7 @@ export function ExamRunner({ initial }: ExamRunnerProps) {
     return (
       <ExamResult
         questions={questions}
+        answers={answers}
         durationsMs={finalDurations}
         score={submitted}
         seed={initial.seed}

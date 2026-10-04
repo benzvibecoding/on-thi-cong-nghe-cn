@@ -34,6 +34,7 @@ const base: PracticeFilter = {
   types: ["mcq", "tf4"],
   includeDraft: true,
   count: 10,
+  status: "all",
 };
 
 describe("practice domain", () => {
@@ -45,6 +46,20 @@ describe("practice domain", () => {
     ];
     expect(filterQuestions(qs, { ...base, levels: ["vd"] }).map((q) => q.id)).toEqual(["q2"]);
     expect(filterQuestions(qs, { ...base, topicId: "dien-tu-so" }).map((q) => q.id)).toEqual(["q2"]);
+  });
+
+  it("loc theo trang thai chua lam / da sai / da danh dau", () => {
+    const qs = [mcq("q1"), mcq("q2"), mcq("q3")];
+    const ctx = {
+      answeredIds: new Set(["q1", "q2"]),
+      wrongIds: new Set(["q1"]),
+      bookmarkedIds: new Set(["q3"]),
+    };
+    const ids = (f: PracticeFilter) => filterQuestions(qs, f, ctx).map((q) => q.id);
+    expect(ids({ ...base, status: "unseen" })).toEqual(["q3"]);
+    expect(ids({ ...base, status: "wrong" })).toEqual(["q1"]);
+    expect(ids({ ...base, status: "bookmarked" })).toEqual(["q3"]);
+    expect(ids({ ...base, status: "all" })).toHaveLength(3);
   });
 
   it("loai draft khi includeDraft=false", () => {

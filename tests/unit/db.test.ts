@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 import { getDb } from "@/data/db";
 import {
   getNote,
+  getPracticeStats,
   isBookmarked,
   recordPracticeEvent,
   saveNote,
@@ -49,6 +50,18 @@ describe("dexie persistence (migration v1 + v2 exam + v3 srs)", () => {
     expect(all).toHaveLength(1);
     expect(all[0]!.questionId).toBe("q1");
     expect(typeof all[0]!.id).toBe("string");
+  });
+
+  it("thong ke id da lam / sai lan gan nhat cho bo loc", async () => {
+    await getDb().practiceEvents.clear();
+    const ev = (questionId: string, correct: boolean) =>
+      recordPracticeEvent({ questionId, topicId: "t", level: "nb", qtype: "mcq", correct, correctCount: correct ? 1 : 0, durationMs: 10 });
+    await ev("s1", false);
+    await ev("s1", true);
+    await ev("s2", false);
+    const stats = await getPracticeStats();
+    expect([...stats.answeredIds].sort()).toEqual(["s1", "s2"]);
+    expect([...stats.wrongIds]).toEqual(["s2"]);
   });
 
   it("luu bao loi cau hoi", async () => {

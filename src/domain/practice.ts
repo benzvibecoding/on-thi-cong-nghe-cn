@@ -1,5 +1,7 @@
 import type { Question, QuestionLevel, QuestionType } from "./question-schema";
 
+export type StatusFilter = "all" | "unseen" | "wrong" | "bookmarked";
+
 export interface PracticeFilter {
   topicId: string | "all";
   levels: QuestionLevel[];
@@ -7,6 +9,7 @@ export interface PracticeFilter {
   /** Include draft questions (shown with badge). Reviewed/published always included. */
   includeDraft: boolean;
   count: number;
+  status: StatusFilter;
 }
 
 export const DEFAULT_FILTER: PracticeFilter = {
@@ -15,6 +18,7 @@ export const DEFAULT_FILTER: PracticeFilter = {
   types: ["mcq", "tf4"],
   includeDraft: true,
   count: 10,
+  status: "all",
 };
 
 /** Deterministic PRNG (mulberry32) so a set can be reproduced from a seed. */
@@ -39,23 +43,47 @@ export function shuffleArray<T>(items: T[], seed: number): T[] {
   return arr;
 }
 
-export function filterQuestions(questions: Question[], filter: PracticeFilter): Question[] {
-  return questions.filter(
-    (q) =>
-      (filter.topicId === "all" || q.topicId === filter.topicId) &&
-      filter.levels.includes(q.level) &&
-      filter.types.includes(q.type) &&
-      (filter.includeDraft || q.status !== "draft")
-  );
+export interface FilterContext {
+  answeredIds?: Set<string>;
+  wrongIds?: Set<string>;
+  bookmarkedIds?: Set<string>;
+}
+
+export function filterQuestions(
+  questions: Question[],
+  filter: PracticeFilter,
+  ctx: FilterContext = {}
+): Question[] {
+  return questions.filter((q) => {
+    if (filter.topicId !== "all" && q.topicId !== filter.topicId) return false;
+    if (!filter.levels.includes(q.level)) return false;
+    if (!filter.types.includes(q.type)) return false;
+    if (!filter.includeDraft && q.status === "draft") return false;
+    switch (filter.status) {
+      case "unseen":
+        if (ctx.answeredIds?.has(q.id)) return false;
+        break;
+      case "wrong":
+        if (!ctx.wrongIds?.has(q.id)) return false;
+        break;
+      case "bookmarked":
+        if (!ctx.bookmarkedIds?.has(q.id)) return false;
+        break;
+      case "all":
+        break;
+    }
+    return true;
+  });
 }
 
 /** Build a no-repeat practice set. Returns at most `count` questions. */
 export function buildPracticeSet(
   questions: Question[],
   filter: PracticeFilter,
-  seed: number = Date.now()
+  seed: number = Date.now(),
+  ctx: FilterContext = {}
 ): { set: Question[]; seed: number; available: number } {
-  const pool = filterQuestions(questions, filter);
+  const pool = filterQuestions(questions, filter, ctx);
   const count = Math.max(1, Math.min(filter.count, pool.length));
   return { set: shuffleArray(pool, seed).slice(0, count), seed, available: pool.length };
 }

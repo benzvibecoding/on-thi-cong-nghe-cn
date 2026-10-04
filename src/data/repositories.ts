@@ -62,6 +62,36 @@ export async function getPracticeEvents(): Promise<PracticeEventRow[]> {
   }
 }
 
+export interface PracticeStats {
+  answeredIds: Set<string>;
+  /** Questions whose latest attempt was wrong. */
+  wrongIds: Set<string>;
+}
+
+/** Id sets for the practice status filter (pure derivation, tested via wrong-book). */
+export async function getPracticeStats(): Promise<PracticeStats> {
+  const events = await getPracticeEvents();
+  const answeredIds = new Set<string>();
+  const lastCorrect = new Map<string, boolean>();
+  for (const e of events) {
+    answeredIds.add(e.questionId);
+    lastCorrect.set(e.questionId, e.correct);
+  }
+  const wrongIds = new Set(
+    [...lastCorrect.entries()].filter(([, correct]) => !correct).map(([id]) => id)
+  );
+  return { answeredIds, wrongIds };
+}
+
+export async function getBookmarkIds(): Promise<Set<string>> {
+  try {
+    const rows = await getDb().bookmarks.toArray();
+    return new Set(rows.map((r) => r.questionId));
+  } catch (err) {
+    throw storageError(err);
+  }
+}
+
 export async function recordPracticeEvent(event: PracticeEventInput): Promise<void> {
   try {
     await getDb().practiceEvents.put({ ...event, id: newId(), createdAt: Date.now() });

@@ -3,6 +3,7 @@
 import { Suspense, useCallback, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { loadManifest, loadTopicPack } from "@/data/content-loader";
+import { getBookmarkIds, getPracticeStats } from "@/data/repositories";
 import { buildPracticeSet, type PracticeFilter } from "@/domain/practice";
 import type { Question } from "@/domain/question-schema";
 import { FilterForm } from "@/features/practice/FilterForm";
@@ -30,8 +31,18 @@ function LuyenTapInner() {
         filter.topicId === "all" ? manifest.packs.map((p) => p.topicId) : [filter.topicId];
       const packs = await Promise.all(topicIds.map((t) => loadTopicPack(t)));
       const all = packs.flatMap((p) => p.questions);
+      // Status filter needs local history; failures fall back to unfiltered.
+      let ctx = {};
+      if (filter.status !== "all") {
+        try {
+          const [stats, bookmarkedIds] = await Promise.all([getPracticeStats(), getBookmarkIds()]);
+          ctx = { answeredIds: stats.answeredIds, wrongIds: stats.wrongIds, bookmarkedIds };
+        } catch {
+          ctx = {};
+        }
+      }
       const seed = Date.now() % 2147483647;
-      const { set, available } = buildPracticeSet(all, filter, seed);
+      const { set, available } = buildPracticeSet(all, filter, seed, ctx);
       if (set.length === 0) {
         setPhase({
           kind: "empty",
