@@ -1,0 +1,105 @@
+# Seed dot 3 (op-amp theo chuong trinh) — status draft, [CAN GIAO VIEN DUYET].
+- id: dttt-mcq-09
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: op-amp
+  level: nb
+  skill: recall
+  stem: 'Khuếch đại thuật toán (op-amp) là linh kiện dùng để làm gì?'
+  mcq:
+    options:
+      - 'Khuếch đại tín hiệu tương tự với độ chính xác cao'
+      - 'Lưu trữ dữ liệu số'
+      - 'Phát wifi'
+      - 'Đo nhiệt độ'
+    correct: A
+  explanation: 'Đáp án A đúng. B là bộ nhớ, C là module truyền thông, D là cảm biến.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dttt-mcq-10
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: op-amp
+  level: th
+  skill: recall
+  stem: 'Mạch khuếch đại đảo dùng op-amp có đặc điểm nào?'
+  mcq:
+    options:
+      - 'Tín hiệu ra ngược pha với tín hiệu vào và lớn hơn nhiều lần'
+      - 'Tín hiệu ra cùng pha và bằng tín hiệu vào'
+      - 'Không khuếch đại được gì'
+      - 'Biến tín hiệu tương tự thành số'
+    correct: A
+  explanation: 'Đáp án A đúng. B mô tả mạch lặp lại (buffer). C sai vì khuếch đại đảo khuếch đại tốt. D thuộc điện tử số.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dttt-mcq-11
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: op-amp
+  level: vd
+  skill: compute
+  stem: 'Mạch khuếch đại đảo có $R_1 = 2$ kΩ, $R_f = 10$ kΩ, điện áp vào $0{,}5$ V. Điện áp ra là bao nhiêu?'
+  mcq:
+    options:
+      - '$-2{,}5$ V'
+      - '$2{,}5$ V'
+      - '$5$ V'
+      - '$20$ V'
+    correct: A
+  explanation: 'Đáp án A đúng: hệ số $A = -R_f/R_1 = -5$, ra $= -5 \\cdot 0{,}5 = -2{,}5$ V (đảo dấu). B thiếu dấu âm. C lấy 10/2 mà quên nhân tín hiệu vào. D sai phép tính.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dttt-mcq-12
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: op-amp
+  level: nb
+  skill: recall
+  stem: 'Mạch so sánh dùng op-amp cho biết điều gì?'
+  mcq:
+    options:
+      - 'Tín hiệu nào trong hai ngõ vào lớn hơn'
+      - 'Nhiệt độ phòng bao nhiêu độ'
+      - 'Thời gian hiện tại'
+      - 'Mật khẩu wifi'
+    correct: A
+  explanation: 'Đáp án A đúng. B cần cảm biến nhiệt, C cần đồng hồ, D không liên quan.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dttt-tf4-03
+  type: tf4
+  topicId: dien-tu-tuong-tu
+  level: th
+  stem: 'Cho các nhận định về khuếch đại thuật toán. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Op-amp dùng để khuếch đại tín hiệu tương tự.'
+        isTrue: true
+        explanation: 'Đúng theo công dụng.'
+      - key: b
+        text: 'Mạch khuếch đại đảo cho tín hiệu ra ngược pha với vào.'
+        isTrue: true
+        explanation: 'Đúng (dấu âm trong hệ số khuếch đại).'
+      - key: c
+        text: 'Mạch so sánh cho biết ngõ vào nào lớn hơn.'
+        isTrue: true
+        explanation: 'Đúng theo nguyên lý mạch so sánh.'
+      - key: d
+        text: 'Op-amp cần nguồn nuôi mới hoạt động được.'
+        isTrue: true
+        explanation: 'Đúng: mọi mạch khuếch đại đều cần nguồn nuôi.'
+  explanation: 'Cả bốn ý đều đúng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

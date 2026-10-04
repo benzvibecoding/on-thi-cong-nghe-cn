@@ -1,0 +1,105 @@
+# Seed dot 3 (theo chuong trinh GDPT 2018) — status draft, [CAN GIAO VIEN DUYET].
+- id: ddc-mcq-09
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: nb
+  skill: recall
+  stem: 'Kĩ thuật điện là lĩnh vực nghiên cứu và ứng dụng tri thức về điện năng để làm gì?'
+  mcq:
+    options:
+      - 'Sản xuất, truyền tải, phân phối và sử dụng điện năng'
+      - 'Trồng trọt và chăn nuôi'
+      - 'Khai thác khoáng sản'
+      - 'Chế biến thực phẩm'
+    correct: A
+  explanation: 'Đáp án A đúng theo khái niệm kĩ thuật điện. B thuộc nông nghiệp, C thuộc khai khoáng, D thuộc công nghệ thực phẩm.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: ddc-mcq-10
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: nghe-dien
+  level: nb
+  skill: recall
+  stem: 'Ngành nghề nào thuộc lĩnh vực kĩ thuật điện?'
+  mcq:
+    options:
+      - 'Vận hành lưới điện'
+      - 'Trồng lúa nước'
+      - 'Chế biến thủy sản'
+      - 'Thiết kế thời trang'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C thuộc định hướng nông nghiệp, D thuộc công nghiệp nhẹ khác.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: ddc-mcq-11
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: th
+  skill: recall
+  stem: 'Triển vọng phát triển của kĩ thuật điện gắn chặt với xu hướng nào?'
+  mcq:
+    options:
+      - 'Năng lượng tái tạo và tự động hóa, lưới điện thông minh'
+      - 'Quay lại dùng đèn dầu'
+      - 'Bỏ hẳn điện năng trong sản xuất'
+      - 'Chỉ dùng pin tiểu cho mọi thiết bị'
+    correct: A
+  explanation: 'Đáp án A đúng. B đi ngược tiến bộ. C sai vì điện ngày càng quan trọng. D sai vì pin tiểu không thể cấp nguồn lớn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: ddc-mcq-12
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: nghe-dien
+  level: vd
+  skill: real-world
+  stem: 'Bạn thích công việc lắp đặt, sửa chữa điện dân dụng. Hướng đi phù hợp là nghề nào?'
+  mcq:
+    options:
+      - 'Thợ lắp đặt và bảo trì điện dân dụng'
+      - 'Kỹ sư phần mềm'
+      - 'Bác sĩ thú y'
+      - 'Kế toán'
+    correct: A
+  explanation: 'Đáp án A đúng với mô tả công việc. B, C, D thuộc lĩnh vực khác.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: ddc-tf4-03
+  type: tf4
+  topicId: dien-dai-cuong
+  level: th
+  stem: 'Cho các nhận định về kĩ thuật điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Kĩ thuật điện bao gồm sản xuất, truyền tải, phân phối và sử dụng điện năng.'
+        isTrue: true
+        explanation: 'Đúng theo khái niệm.'
+      - key: b
+        text: 'Vận hành nhà máy điện là một ngành nghề thuộc lĩnh vực kĩ thuật điện.'
+        isTrue: true
+        explanation: 'Đúng theo phân loại ngành nghề.'
+      - key: c
+        text: 'Kĩ thuật điện không liên quan gì đến tự động hóa sản xuất.'
+        isTrue: false
+        explanation: 'Sai: điện năng là nền tảng của tự động hóa.'
+      - key: d
+        text: 'Năng lượng tái tạo không thuộc phạm vi quan tâm của kĩ thuật điện.'
+        isTrue: false
+        explanation: 'Sai: thủy điện, điện gió, mặt trời đều là nguồn điện.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

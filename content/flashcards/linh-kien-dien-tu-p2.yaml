@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: lkdt-card-05
+  topicId: linh-kien-dien-tu
+  kind: formula
+  front: 'Dòng 2 A qua điện trở 3 ôm thì điện áp hai đầu là bao nhiêu?'
+  back: '$U = I \\cdot R = 2 \\cdot 3 = 6$ V'
+- id: lkdt-card-06
+  topicId: linh-kien-dien-tu
+  kind: term
+  front: 'Mắc tụ vào nguồn một chiều ổn định thì xảy ra gì?'
+  back: 'Tụ nạp đầy rồi chặn, không cho dòng một chiều đi qua nữa.'

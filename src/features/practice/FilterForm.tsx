@@ -114,10 +114,10 @@ export function FilterForm({ defaultTopic, onStart }: FilterFormProps) {
             <input
               type="number"
               min={1}
-              max={45}
+              max={150}
               value={filter.count}
               onChange={(e) =>
-                setFilter((f) => ({ ...f, count: Math.max(1, Math.min(45, Number(e.target.value) || 1)) }))
+                setFilter((f) => ({ ...f, count: Math.max(1, Math.min(150, Number(e.target.value) || 1)) }))
               }
               className="touch-target w-20 rounded-lg border border-[var(--line)] bg-[var(--bg)] px-2"
             />

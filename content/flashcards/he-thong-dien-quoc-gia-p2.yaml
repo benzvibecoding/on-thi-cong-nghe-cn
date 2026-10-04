@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: htd-card-05
+  topicId: he-thong-dien-quoc-gia
+  kind: term
+  front: 'Trạm tăng áp và trạm hạ áp đặt ở đâu?'
+  back: 'Tăng áp ở đầu phát (gần nhà máy), hạ áp ở đầu nhận (gần nơi tiêu thụ).'
+- id: htd-card-06
+  topicId: he-thong-dien-quoc-gia
+  kind: formula
+  front: 'Muốn giảm điện trở dây (cùng dài, cùng chất liệu) thì làm gì?'
+  back: 'Tăng tiết diện dây (điện trở tỉ lệ nghịch với tiết diện).'

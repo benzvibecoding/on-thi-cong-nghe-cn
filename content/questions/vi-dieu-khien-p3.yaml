@@ -1,0 +1,105 @@
+# Seed dot 3 (bo mach VDK theo chuong trinh) — status draft, [CAN GIAO VIEN DUYET].
+- id: vdk-mcq-09
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: bo-mach
+  level: nb
+  skill: recall
+  stem: 'Bo mạch lập trình vi điều khiển gồm những thành phần chính nào?'
+  mcq:
+    options:
+      - 'Chip vi điều khiển, mạch nạp và các cổng kết nối vào/ra'
+      - 'Màn hình, bàn phím và chuột'
+      - 'Máy in và máy quét'
+      - 'Loa và micro'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C, D là thiết bị ngoại vi máy tính, không phải của bo mạch.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: vdk-mcq-10
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: bo-mach
+  level: nb
+  skill: recall
+  stem: 'Muốn bo mạch chạy theo ý mình thì làm thế nào?'
+  mcq:
+    options:
+      - 'Viết chương trình trên máy tính rồi nạp vào bo mạch'
+      - 'Gõ trực tiếp lên chip bằng búa'
+      - 'Thay chip khác mỗi lần đổi ý'
+      - 'Hét lệnh vào bo mạch'
+    correct: A
+  explanation: 'Đáp án A đúng theo quy trình lập trình – nạp – chạy. B, C, D sai kĩ thuật và thực tế.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: vdk-mcq-11
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: bo-mach
+  level: th
+  skill: recall
+  stem: 'Arduino là gì trong học tập vi điều khiển?'
+  mcq:
+    options:
+      - 'Một họ bo mạch vi điều khiển phổ biến, dễ học và dễ mở rộng'
+      - 'Một loại bóng đèn'
+      - 'Một hãng sản xuất dây điện'
+      - 'Một phần mềm diệt virus'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C, D thuộc lĩnh vực khác.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: vdk-mcq-12
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: ung-dung-vdk
+  level: vd
+  skill: real-world
+  stem: 'Muốn đèn tự sáng mạnh khi trời tối và mờ khi trời sáng dùng bo mạch VĐK. Cần thêm gì?'
+  mcq:
+    options:
+      - 'Cảm biến ánh sáng và điều xung (PWM) theo chương trình'
+      - 'Thêm một công tắc cơ và bật tay mỗi tối'
+      - 'Thay bóng đèn mỗi giờ'
+      - 'Gỡ bỏ vi điều khiển'
+    correct: A
+  explanation: 'Đáp án A đúng: cảm biến đo sáng, VĐK ra lệnh PWM đổi độ sáng. B là thủ công, không tự động. C phi lý. D bỏ luôn bộ điều khiển.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: vdk-tf4-03
+  type: tf4
+  topicId: vi-dieu-khien
+  level: th
+  stem: 'Cho các nhận định về bo mạch vi điều khiển. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Bo mạch gồm chip vi điều khiển, mạch nạp và cổng vào/ra.'
+        isTrue: true
+        explanation: 'Đúng theo cấu tạo bo mạch.'
+      - key: b
+        text: 'Chương trình được viết trên máy tính rồi nạp vào bo mạch.'
+        isTrue: true
+        explanation: 'Đúng theo quy trình làm việc.'
+      - key: c
+        text: 'Arduino là bo mạch vi điều khiển phổ biến cho học tập.'
+        isTrue: true
+        explanation: 'Đúng với thực tế giáo dục.'
+      - key: d
+        text: 'Bo mạch chạy được mà không cần cấp nguồn.'
+        isTrue: false
+        explanation: 'Sai: mọi mạch điện tử đều cần nguồn nuôi.'
+  explanation: 'Các ý a, b, c đúng; ý d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

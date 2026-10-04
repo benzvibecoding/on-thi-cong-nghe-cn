@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: dtdc-card-05
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Micro và loa, thiết bị nào biến âm thành điện?'
+  back: 'Micro biến âm thanh thành tín hiệu điện; loa làm ngược lại.'
+- id: dtdc-card-06
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Muốn máy tính xử lý tiếng nói thì phải làm gì trước?'
+  back: 'Biến tín hiệu tương tự thành tín hiệu số.'

@@ -14,18 +14,17 @@ describe("seed flashcards pass Zod schema", () => {
     }
   }
 
-  it("moi chu de co 4 the (term/formula/symbol)", () => {
+  it("10 chu de; moi chu de it nhat 4 the, id khong trung", () => {
     const byTopic = new Map<string, typeof cards>();
     for (const c of cards) {
       if (!byTopic.has(c.topicId)) byTopic.set(c.topicId, []);
       byTopic.get(c.topicId)!.push(c);
     }
-    expect(byTopic.size).toBe(9);
-    for (const list of byTopic.values()) expect(list).toHaveLength(4);
-  });
-
-  it("36 the, id khong trung", () => {
-    expect(cards).toHaveLength(36);
-    expect(new Set(cards.map((c) => c.id)).size).toBe(36);
+    expect(byTopic.size).toBe(10);
+    for (const [topicId, list] of byTopic) {
+      expect(list.length, topicId).toBeGreaterThanOrEqual(4);
+    }
+    expect(cards.length).toBeGreaterThanOrEqual(72);
+    expect(new Set(cards.map((c) => c.id)).size).toBe(cards.length);
   });
 });

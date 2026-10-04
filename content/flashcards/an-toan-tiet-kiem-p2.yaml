@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: attk-card-05
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Vì sao chim đậu trên dây cao thế thường không bị giật?'
+  back: 'Chỉ chạm một điểm, không chênh lệch điện thế qua người nên không có dòng.'
+- id: attk-card-06
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Gặp dây điện đứt rơi xuống đường thì làm gì?'
+  back: 'Tránh xa, cảnh báo người xung quanh, báo cơ quan điện; không tự xử lý.'

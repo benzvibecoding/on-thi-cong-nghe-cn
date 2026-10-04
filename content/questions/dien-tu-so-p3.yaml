@@ -1,0 +1,105 @@
+# Seed dot 3 (mach day theo chuong trinh) — status draft, [CAN GIAO VIEN DUYET].
+- id: dtso-mcq-09
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: mach-day
+  level: nb
+  skill: recall
+  stem: 'Phần tử nhớ cơ bản nhất của mạch dãy (ví dụ flip-flop) nhớ được bao nhiêu bit?'
+  mcq:
+    options:
+      - '1 bit'
+      - '8 bit'
+      - '1 byte luôn cố định'
+      - 'Vô hạn bit'
+    correct: A
+  explanation: 'Đáp án A đúng: một flip-flop nhớ 1 bit. B, C là thanh ghi nhiều flip-flop. D sai vật lý.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtso-mcq-10
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: mach-to-hop
+  level: th
+  skill: real-world
+  stem: 'Mạch báo cháy dùng cảm biến khói: khi có khói VÀ hệ thống đang bật thì còi kêu. Nên dùng cổng nào?'
+  mcq:
+    options:
+      - 'Cổng AND'
+      - 'Cổng OR'
+      - 'Cổng NOT'
+      - 'Không dùng cổng nào'
+    correct: A
+  explanation: 'Đáp án A đúng vì cần cả hai điều kiện đồng thời. B kêu cả khi chỉ một điều kiện đúng. C chỉ đảo một tín hiệu. D sai vì đúng là bài toán tổ hợp.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtso-mcq-11
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: mach-to-hop
+  level: vd
+  skill: real-world
+  stem: 'Muốn đèn sáng khi công tắc A đóng HOẶC công tắc B đóng (mỗi công tắc độc lập). Dùng cổng nào?'
+  mcq:
+    options:
+      - 'Cổng OR'
+      - 'Cổng AND'
+      - 'Cổng NOT'
+      - 'Mạch cầu chì'
+    correct: A
+  explanation: 'Đáp án A đúng vì chỉ cần một trong hai. B sai vì AND đòi cả hai. C chỉ đảo một tín hiệu. D là bảo vệ, không phải logic.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtso-mcq-12
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: mach-day
+  level: nb
+  skill: recall
+  stem: 'Mạch dãy cần thêm thành phần nào so với mạch tổ hợp?'
+  mcq:
+    options:
+      - 'Phần tử nhớ trạng thái'
+      - 'Nguồn điện xoay chiều'
+      - 'Bóng đèn sợi đốt'
+      - 'Dây trung tính'
+    correct: A
+  explanation: 'Đáp án A đúng: mạch dãy phụ thuộc cả quá khứ nên cần nhớ. B, C, D không phải đặc trưng phân biệt.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtso-tf4-03
+  type: tf4
+  topicId: dien-tu-so
+  level: th
+  stem: 'Cho các nhận định về mạch số. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Mạch dãy có ngõ ra phụ thuộc cả trạng thái trước đó.'
+        isTrue: true
+        explanation: 'Đúng theo định nghĩa mạch dãy.'
+      - key: b
+        text: 'Flip-flop là phần tử nhớ được 1 bit.'
+        isTrue: true
+        explanation: 'Đúng với flip-flop cơ bản.'
+      - key: c
+        text: 'Mạch tổ hợp cần phần tử nhớ mới hoạt động được.'
+        isTrue: false
+        explanation: 'Sai: tổ hợp chỉ phụ thuộc ngõ vào hiện tại.'
+      - key: d
+        text: 'Mạch báo cháy đơn giản có thể xây từ các cổng logic cơ bản.'
+        isTrue: true
+        explanation: 'Đúng: ví dụ cảm biến AND với tín hiệu cho phép.'
+  explanation: 'Các ý a, b, d đúng; ý c sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

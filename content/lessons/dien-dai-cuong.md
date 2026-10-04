@@ -29,11 +29,24 @@ status: draft
 Vận hành nhà máy điện, quản lý lưới điện, lắp đặt và bảo trì điện dân dụng,
 thiết kế hệ thống điện công trình.
 
-## 4. Lỗi thường gặp
+## 4. Triển vọng phát triển
+
+Kĩ thuật điện phát triển cùng năng lượng tái tạo (gió, mặt trời), lưới điện
+thông minh và tự động hóa. Nhu cầu nhân lực trải từ vận hành nhà máy, quản lý
+lưới tới lắp đặt, bảo trì điện dân dụng.
+
+## 5. Lỗi thường gặp
 
 - Nhầm "truyền tải" với "phân phối": truyền tải đi xa ở điện áp cao, phân phối
   đưa điện tới người dùng ở điện áp thấp hơn.
 - Cho rằng điện năng không hao phí khi truyền tải: thực tế luôn có hao phí,
   dùng điện áp cao để giảm hao phí.
+
+## 6. Mở rộng: đọc tên các khâu trong đời sống
+
+- Cột điện cao thế ngoài cánh đồng: đường dây truyền tải.
+- Trạm biến áp đầu khu phố: hạ áp để phân phối.
+- Công tơ trước cửa nhà: ranh giới giữa phân phối và sử dụng.
+- Giờ cao điểm (tối): phụ tải lớn nhất, dễ quá tải — nên dùng điện tiết kiệm.
 
 [Luyện tập chủ đề này](/luyen-tap)

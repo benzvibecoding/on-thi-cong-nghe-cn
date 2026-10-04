@@ -28,11 +28,21 @@ người sơ cứu đã được huấn luyện.
 - Dùng đèn LED thay đèn sợi đốt; tắt thiết bị khi không dùng.
 - Dùng điều hòa ở nhiệt độ hợp lý, vệ sinh định kỳ.
 - Chọn thiết bị có nhãn năng lượng hiệu suất cao.
+- Rút phích khi không dùng để tránh tốn điện chờ (standby).
+- Nhẩm nhanh điện năng: $A = P \cdot t$ (ví dụ 100 W dùng 10 giờ tốn 1 kWh).
 
 ## 4. Lỗi thường gặp
 
 - Dùng tay ướt bật công tắc hoặc cắm điện (nguy hiểm).
 - Cho rằng aptomat thường chống được mọi điện giật: aptomat thường chỉ cắt quá
   tải/ngắn mạch; chống giật cần thiết bị chuyên dụng.
+
+## 5. Mở rộng: tình huống khẩn cấp
+
+- Dây điện đứt sau bão: tránh xa, cảnh báo người xung quanh, báo cơ quan điện;
+  tuyệt đối không tự nhặt, tự nối.
+- Chim đậu trên dây cao thế thường không sao vì chỉ chạm một điểm, không có
+  chênh lệch điện thế qua người — nhưng người thì tuyệt đối không lại gần dây
+  cao thế dưới mọi hình thức.
 
 [Luyện tập chủ đề này](/luyen-tap)

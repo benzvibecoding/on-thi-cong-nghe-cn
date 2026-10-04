@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dtdc-mcq-05
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: mach-dien-tu-coban
+  level: nb
+  skill: recall
+  stem: 'Micro có nhiệm vụ gì trong hệ thống âm thanh?'
+  mcq:
+    options:
+      - 'Biến âm thanh thành tín hiệu điện'
+      - 'Phát âm thanh ra loa'
+      - 'Cấp nguồn cho hệ thống'
+      - 'Khuếch đại tín hiệu'
+    correct: A
+  explanation: 'Đáp án A đúng. B là loa, C là khối nguồn, D là khối khuếch đại.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtdc-mcq-06
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: mach-dien-tu-coban
+  level: nb
+  skill: recall
+  stem: 'Loa có nhiệm vụ gì trong hệ thống âm thanh?'
+  mcq:
+    options:
+      - 'Biến tín hiệu điện thành âm thanh'
+      - 'Biến âm thanh thành tín hiệu điện'
+      - 'Lưu trữ chương trình'
+      - 'Ổn định điện áp'
+    correct: A
+  explanation: 'Đáp án A đúng. B là micro, C là bộ nhớ, D là khối ổn áp.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtdc-mcq-07
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: mach-dien-tu-coban
+  level: th
+  skill: interpret-diagram
+  stem: 'Cảm biến nhiệt độ trong phòng cho tín hiệu biến thiên liên tục theo nhiệt độ. Đó là tín hiệu loại nào?'
+  mcq:
+    options:
+      - 'Tín hiệu số vì cảm biến là linh kiện số'
+      - 'Tín hiệu tương tự vì biến thiên liên tục'
+      - 'Không phải tín hiệu điện'
+      - 'Vừa tương tự vừa số cùng lúc'
+    correct: B
+  explanation: 'Đáp án B đúng theo định nghĩa. A sai vì loại tín hiệu do tính chất biến thiên quyết định. C sai vì cảm biến xuất tín hiệu điện. D sai vì một tín hiệu không đồng thời cả hai dạng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtdc-mcq-08
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: mach-dien-tu-coban
+  level: vd
+  skill: recall
+  stem: 'Muốn máy tính xử lý được tiếng nói thì trước hết phải làm gì?'
+  mcq:
+    options:
+      - 'Khuếch đại tiếng nói cho thật to'
+      - 'Biến tín hiệu tương tự của tiếng nói thành tín hiệu số'
+      - 'Giảm tiếng nói về mức 0'
+      - 'Lưu tiếng nói vào loa'
+    correct: B
+  explanation: 'Đáp án B đúng: máy tính làm việc với tín hiệu số. A chỉ làm to, không đổi dạng. C, D vô nghĩa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtdc-tf4-02
+  type: tf4
+  topicId: dien-tu-dai-cuong
+  level: nb
+  stem: 'Cho các nhận định về tín hiệu. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Micro biến âm thanh thành tín hiệu điện.'
+        isTrue: true
+        explanation: 'Đúng theo chức năng của micro.'
+      - key: b
+        text: 'Loa biến tín hiệu điện thành âm thanh.'
+        isTrue: true
+        explanation: 'Đúng theo chức năng của loa.'
+      - key: c
+        text: 'Tín hiệu từ nút nhấn đóng/ngắt là tín hiệu tương tự.'
+        isTrue: false
+        explanation: 'Sai: chỉ hai trạng thái rời rạc nên là tín hiệu số.'
+      - key: d
+        text: 'Máy tính xử lý trực tiếp tín hiệu tương tự mà không cần đổi dạng.'
+        isTrue: false
+        explanation: 'Sai: phải đổi sang tín hiệu số máy tính mới xử lý được.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

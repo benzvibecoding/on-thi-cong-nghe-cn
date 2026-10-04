@@ -21,24 +21,25 @@ function loadSeed(): Question[] {
 describe("seed content passes Zod schema", () => {
   const questions = loadSeed();
 
-  it("co 9 chu de trong taxonomy", () => {
+  it("co 10 chu de trong taxonomy", () => {
     const taxonomy = taxonomySchema.parse(
       parseYaml(readFileSync(join(root, "content", "taxonomy.yaml"), "utf8"))
     );
-    expect(taxonomy.topics).toHaveLength(9);
+    expect(taxonomy.topics).toHaveLength(10);
   });
 
-  it("moi chu de co 5 cau: 4 MCQ + 1 TF4", () => {
+  it("10 chu de; moi chu de du 2 dang, du 3 muc do", () => {
     const byTopic = new Map<string, Question[]>();
     for (const q of questions) {
       if (!byTopic.has(q.topicId)) byTopic.set(q.topicId, []);
       byTopic.get(q.topicId)!.push(q);
     }
-    expect(byTopic.size).toBe(9);
-    for (const qs of byTopic.values()) {
-      expect(qs.filter((q) => q.type === "mcq")).toHaveLength(4);
-      expect(qs.filter((q) => q.type === "tf4")).toHaveLength(1);
+    expect(byTopic.size).toBe(10);
+    for (const [topicId, qs] of byTopic) {
+      expect(qs.filter((q) => q.type === "mcq").length, `${topicId} mcq`).toBeGreaterThanOrEqual(8);
+      expect(qs.filter((q) => q.type === "tf4").length, `${topicId} tf4`).toBeGreaterThanOrEqual(2);
     }
+    expect(questions.length).toBeGreaterThanOrEqual(140);
   });
 
   it("moi chu de phu du 3 muc do nb/th/vd", () => {

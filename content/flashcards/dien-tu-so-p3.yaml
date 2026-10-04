@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: dtso-card-07
+  topicId: dien-tu-so
+  kind: term
+  front: 'Flip-flop nhớ được bao nhiêu bit? Mạch dãy khác tổ hợp ở đâu?'
+  back: '1 bit; mạch dãy có nhớ trạng thái trước, tổ hợp thì không.'
+- id: dtso-card-08
+  topicId: dien-tu-so
+  kind: term
+  front: 'Đèn sáng khi A HOẶC B đóng thì dùng cổng nào?'
+  back: 'Cổng OR (chỉ cần một trong hai).'

@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: dtdc-card-07
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Phân biệt thiết kế, lắp đặt, vận hành thiết bị điện tử.'
+  back: 'Thiết kế: vẽ và thử mạch mới; lắp đặt: thi công; vận hành: bảo trì, khai thác.'
+- id: dtdc-card-08
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Kể một dịch vụ ứng dụng kĩ thuật điện tử.'
+  back: 'Mạng điện thoại di động, truyền hình, thanh toán điện tử.'

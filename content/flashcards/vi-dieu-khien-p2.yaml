@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: vdk-card-05
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'RAM khác flash ở điểm nào?'
+  back: 'Flash giữ chương trình khi mất nguồn; RAM mất dữ liệu tạm khi mất nguồn.'
+- id: vdk-card-06
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Nạp chương trình mới mà mạch vẫn chạy kiểu cũ: kiểm tra gì?'
+  back: 'Việc nạp có thành công không, rồi nhấn reset cho chạy lại.'

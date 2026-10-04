@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
-import { APP_CONFIG } from "@/domain/exam-config";
+import { getEnv } from "@/lib/env";
 
-const base = (APP_CONFIG.siteUrl || "http://localhost:3000").replace(/\/$/, "");
+const base = getEnv().SITE_URL.replace(/\/$/, "");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [

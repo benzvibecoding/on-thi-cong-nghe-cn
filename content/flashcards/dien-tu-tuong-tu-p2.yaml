@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: dttt-card-05
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Khuếch đại có tự tạo thêm năng lượng không?'
+  back: 'Không, năng lượng lấy từ nguồn nuôi (bảo toàn năng lượng).'
+- id: dttt-card-06
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Trình tự các khối của nguồn một chiều?'
+  back: 'Hạ áp → chỉnh lưu → lọc → ổn áp.'

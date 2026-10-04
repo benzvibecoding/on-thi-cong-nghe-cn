@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: htd-card-07
+  topicId: he-thong-dien-quoc-gia
+  kind: formula
+  front: 'Nối sao: quan hệ điện áp dây và điện áp pha?'
+  back: '$U_d = \\sqrt{3} \\cdot U_p$ (ví dụ 220 V pha → khoảng 381 V dây)'
+- id: htd-card-08
+  topicId: he-thong-dien-quoc-gia
+  kind: term
+  front: 'Kể ba phương pháp sản xuất điện và đặc điểm mỗi loại.'
+  back: 'Thủy điện (thế năng nước); nhiệt điện (đốt nhiên liệu); gió/mặt trời (phụ thuộc thời tiết).'

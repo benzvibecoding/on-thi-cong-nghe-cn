@@ -1,0 +1,105 @@
+# Seed dot 3 — status draft, [CAN GIAO VIEN DUYET].
+- id: attk-mcq-09
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: tiet-kiem-dien
+  level: nb
+  skill: recall
+  stem: 'Nhãn năng lượng trên thiết bị điện giúp người dùng làm gì?'
+  mcq:
+    options:
+      - 'Chọn thiết bị hiệu suất cao, tiết kiệm điện'
+      - 'Tăng điện áp sử dụng'
+      - 'Sửa chữa thiết bị'
+      - 'Đo dòng điện trong nhà'
+    correct: A
+  explanation: 'Đáp án A đúng. B là máy biến áp. C là thợ sửa chữa. D là ampe kế.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: attk-mcq-10
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: tiet-kiem-dien
+  level: nb
+  skill: recall
+  stem: 'Thiết bị ở chế độ chờ (standby, đèn đỏ) có tốn điện không?'
+  mcq:
+    options:
+      - 'Có, vẫn tiêu thụ một lượng điện nhỏ'
+      - 'Không tốn chút nào'
+      - 'Còn tốn hơn khi đang dùng'
+      - 'Tùy màu đèn báo'
+    correct: A
+  explanation: 'Đáp án A đúng: mạch chờ vẫn nuôi nguồn. B sai vì vẫn có dòng chờ. C sai vì nhỏ hơn nhiều khi dùng. D vô nghĩa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: attk-mcq-11
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: th
+  skill: troubleshoot
+  stem: 'Buổi tối cả xóm đồng loạt bật điều hòa và bình nóng lạnh, điện chập chờn, aptomat tổng nhảy. Nguyên nhân chính là gì?'
+  mcq:
+    options:
+      - 'Quá tải cục bộ giờ cao điểm'
+      - 'Trăng quá sáng'
+      - 'Dây dẫn quá to'
+      - 'Công tơ chạy quá nhanh'
+    correct: A
+  explanation: 'Đáp án A đúng: phụ tải đồng thời vượt khả năng mạch. B vô nghĩa. C sai vì dây to tốt hơn. D là hệ quả, không phải nguyên nhân.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: attk-mcq-12
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: tiet-kiem-dien
+  level: vd
+  skill: compute
+  stem: 'Bóng đèn 100 W thắp liên tục 10 giờ thì tiêu thụ bao nhiêu điện năng?'
+  mcq:
+    options:
+      - '1 kWh'
+      - '10 kWh'
+      - '1000 kWh'
+      - '0,01 kWh'
+    correct: A
+  explanation: 'Đáp án A đúng: $A = P \\cdot t = 0{,}1 \\cdot 10 = 1$ kWh. B lấy 100 x 10 mà quên đổi W sang kW. C sai đơn vị. D sai phép tính.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: attk-tf4-03
+  type: tf4
+  topicId: an-toan-tiet-kiem
+  level: th
+  stem: 'Cho các nhận định về sử dụng điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Rút phích thiết bị không dùng giúp tránh tốn điện chờ.'
+        isTrue: true
+        explanation: 'Đúng vì cắt hẳn nguồn nuôi mạch chờ.'
+      - key: b
+        text: 'Bóng 100 W dùng 10 giờ tốn 1 kWh điện.'
+        isTrue: true
+        explanation: 'Đúng: $0{,}1 \\cdot 10 = 1$ kWh.'
+      - key: c
+        text: 'Giờ cao điểm dùng thoải mái vì lưới điện luôn dư thừa.'
+        isTrue: false
+        explanation: 'Sai: giờ cao điểm dễ quá tải, sụt áp.'
+      - key: d
+        text: 'Nhãn năng lượng càng nhiều sao thì thiết bị càng tốn điện.'
+        isTrue: false
+        explanation: 'Sai: càng nhiều sao càng tiết kiệm.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

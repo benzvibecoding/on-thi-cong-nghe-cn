@@ -25,10 +25,22 @@ status: draft
 - **LED:** diode phát sáng khi có dòng thuận đi qua; phải mắc nối tiếp điện trở
   hạn dòng.
 
-## 3. Lỗi thường gặp
+## 3. Mạch tích hợp IC
+
+IC tích hợp nhiều linh kiện trên một chip bán dẫn nên mạch gọn nhẹ, tin cậy
+hơn lắp linh kiện rời. Khi dùng IC và LED hiển thị, transistor thường làm khóa
+đóng/ngắt dòng LED theo tín hiệu điều khiển.
+
+## 4. Lỗi thường gặp
 
 - Mắc LED không có điện trở hạn dòng: LED dễ hỏng do quá dòng.
 - Mắc ngược diode trong mạch cần dẫn thuận: mạch không hoạt động.
 - Nhầm tác dụng tụ điện: tụ không "tạo ra" điện năng, chỉ tích trữ rồi phóng ra.
+
+## 5. Mở rộng: đọc ký hiệu diode
+
+Ký hiệu diode là tam giác chỉ chiều dẫn thuận, gặp vạch đứng (cathode) thì
+dừng: dòng đi từ anode sang cathode. LED là diode có thêm mũi tên phát sáng.
+Ví dụ tính nhanh: dòng 2 A qua điện trở 3 Ω thì $U = I \cdot R = 6$ V.
 
 [Luyện tập chủ đề này](/luyen-tap)

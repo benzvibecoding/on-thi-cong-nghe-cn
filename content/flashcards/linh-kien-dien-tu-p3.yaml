@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: lkdt-card-07
+  topicId: linh-kien-dien-tu
+  kind: term
+  front: 'IC là gì? Ưu điểm?'
+  back: 'Mạch tích hợp nhiều linh kiện trên một chip; gọn nhẹ, tin cậy cao.'
+- id: lkdt-card-08
+  topicId: linh-kien-dien-tu
+  kind: formula
+  front: 'Dòng 20 mA qua 220 ôm thì điện áp là bao nhiêu?'
+  back: '$U = 0{,}02 \\cdot 220 = 4{,}4$ V (nhớ đổi mA sang A)'

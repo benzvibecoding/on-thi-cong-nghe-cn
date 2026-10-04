@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: dgd-card-05
+  topicId: dien-gia-dinh
+  kind: formula
+  front: 'Ấm 220 V – 1100 W có dòng định mức bao nhiêu?'
+  back: '$I = P / U = 1100 / 220 = 5$ A'
+- id: dgd-card-06
+  topicId: dien-gia-dinh
+  kind: term
+  front: 'Hai đèn giống nhau mắc nối tiếp vào đúng điện áp định mức thì sao?'
+  back: 'Mỗi đèn chỉ chịu một nửa điện áp nên sáng mờ.'

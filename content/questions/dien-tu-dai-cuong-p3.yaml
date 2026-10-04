@@ -1,0 +1,105 @@
+# Seed dot 3 (theo de minh hoa Bo: phan loai linh vuc) — status draft.
+- id: dtdc-mcq-09
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: nganh-nghe-dv
+  level: nb
+  skill: recall
+  stem: 'Nghiên cứu, ứng dụng tri thức điện tử để thiết kế, thử nghiệm mạch điện tử là hoạt động chủ yếu của lĩnh vực nào?'
+  mcq:
+    options:
+      - 'Thiết kế thiết bị điện tử'
+      - 'Vận hành thiết bị điện tử'
+      - 'Lắp đặt thiết bị điện tử'
+      - 'Sản xuất thiết bị điện tử'
+    correct: A
+  explanation: 'Đáp án A đúng. B là khai thác sử dụng, C là thi công lắp ráp, D là chế tạo hàng loạt.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtdc-mcq-10
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: nganh-nghe-dv
+  level: nb
+  skill: recall
+  stem: 'Dịch vụ nào có ứng dụng rõ rệt của kĩ thuật điện tử?'
+  mcq:
+    options:
+      - 'Mạng điện thoại di động và truyền hình'
+      - 'Trồng lúa nước'
+      - 'Đánh bắt cá thủ công'
+      - 'Khai thác đá'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C, D thuộc nông nghiệp và khai khoáng, ít dùng mạch điện tử.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtdc-mcq-11
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: nganh-nghe-dv
+  level: th
+  skill: recall
+  stem: 'Kỹ sư bảo trì dây chuyền tự động trong nhà máy thuộc lĩnh vực nào?'
+  mcq:
+    options:
+      - 'Vận hành thiết bị điện tử'
+      - 'Thiết kế thời trang'
+      - 'Chăn nuôi gia súc'
+      - 'Trồng rừng'
+    correct: A
+  explanation: 'Đáp án A đúng: bảo trì, khai thác hệ thống thuộc vận hành. B, C, D thuộc lĩnh vực khác.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtdc-mcq-12
+  type: mcq
+  topicId: dien-tu-dai-cuong
+  subtopicId: nganh-nghe-dv
+  level: vd
+  skill: real-world
+  stem: 'Gia đình lắp hệ thống camera an ninh. Công việc của thợ lắp đặt thuộc lĩnh vực nào?'
+  mcq:
+    options:
+      - 'Lắp đặt thiết bị điện tử'
+      - 'Sản xuất linh kiện bán dẫn'
+      - 'Nghiên cứu vật liệu mới'
+      - 'Vận hành nhà máy điện'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C thuộc nghiên cứu/chế tạo, D thuộc kĩ thuật điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dtdc-tf4-03
+  type: tf4
+  topicId: dien-tu-dai-cuong
+  level: th
+  stem: 'Cho các nhận định về lĩnh vực điện tử. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Thiết kế mạch điện tử thuộc lĩnh vực thiết kế thiết bị điện tử.'
+        isTrue: true
+        explanation: 'Đúng theo phân loại hoạt động.'
+      - key: b
+        text: 'Lắp đặt camera an ninh thuộc lĩnh vực lắp đặt thiết bị điện tử.'
+        isTrue: true
+        explanation: 'Đúng theo phân loại hoạt động.'
+      - key: c
+        text: 'Mạng điện thoại di động không liên quan kĩ thuật điện tử.'
+        isTrue: false
+        explanation: 'Sai: viễn thông là ứng dụng lớn của điện tử.'
+      - key: d
+        text: 'Mọi hoạt động với mạch điện tử đều gọi là sản xuất.'
+        isTrue: false
+        explanation: 'Sai: còn thiết kế, lắp đặt, vận hành.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: attk-card-07
+  topicId: an-toan-tiet-kiem
+  kind: formula
+  front: 'Bóng 100 W dùng 10 giờ tốn bao nhiêu điện?'
+  back: '$A = P \\cdot t = 0{,}1 \\cdot 10 = 1$ kWh'
+- id: attk-card-08
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Thiết bị ở chế độ chờ có tốn điện không?'
+  back: 'Có, vẫn tốn một lượng nhỏ — nên rút phích khi không dùng.'

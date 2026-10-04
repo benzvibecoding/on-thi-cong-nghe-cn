@@ -1,0 +1,209 @@
+# Seed dot 4 (lop 10-11 theo chuong trinh) — status draft, [CAN GIAO VIEN DUYET].
+- id: ktbt-mcq-01
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: ve-ki-thuat
+  level: nb
+  skill: recall
+  stem: 'Ba hình chiếu vuông góc của vật thể gồm những hình nào?'
+  mcq:
+    options:
+      - 'Chiếu đứng, chiếu bằng, chiếu cạnh'
+      - 'Chiếu trước, chiếu sau, chiếu trên'
+      - 'Hình tròn, hình vuông, hình tam giác'
+      - 'Mặt cắt, hình cắt, hình chiếu trục đo'
+    correct: A
+  explanation: 'Đáp án A đúng. B sai tên gọi chuẩn. C là hình phẳng, không phải hình chiếu. D là các loại hình biểu diễn khác.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-02
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: ve-ki-thuat
+  level: nb
+  skill: recall
+  stem: 'Đường đứt nét trên bản vẽ kĩ thuật thể hiện điều gì?'
+  mcq:
+    options:
+      - 'Cạnh thấy của vật thể'
+      - 'Cạnh khuất của vật thể'
+      - 'Đường trang trí'
+      - 'Khung bản vẽ'
+    correct: B
+  explanation: 'Đáp án B đúng. A là đường liền đậm. C, D không phải ý nghĩa đường nét.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-03
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: vat-lieu-co-khi
+  level: nb
+  skill: recall
+  stem: 'Vỏ bọc dây điện thường dùng nhựa vì nhựa có tính chất nào?'
+  mcq:
+    options:
+      - 'Cách điện tốt'
+      - 'Dẫn điện tốt'
+      - 'Dẫn nhiệt tốt'
+      - 'Nhiễm từ mạnh'
+    correct: A
+  explanation: 'Đáp án A đúng. B là tính chất của đồng, nhôm. C không phải lý do chọn vỏ cách điện. D sai vì nhựa không nhiễm từ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-04
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: gia-cong-co-khi
+  level: nb
+  skill: recall
+  stem: 'Hàn kim loại là phương pháp gia công như thế nào?'
+  mcq:
+    options:
+      - 'Nối các chi tiết kim loại bằng nhiệt (nóng chảy mép hàn)'
+      - 'Cắt kim loại bằng kéo'
+      - 'Dán kim loại bằng keo'
+      - 'Sơn phủ bề mặt kim loại'
+    correct: A
+  explanation: 'Đáp án A đúng. B là cắt gọt thủ công. C là dán, không phải hàn. D là xử lý bề mặt.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-05
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: ve-ki-thuat
+  level: th
+  skill: interpret-diagram
+  stem: 'Trên bản vẽ ghi chiều dài 50 mm, đo trên giấy được 25 mm. Vì sao?'
+  mcq:
+    options:
+      - 'Vì bản vẽ vẽ theo tỉ lệ 1:2; kích thước thật là số ghi 50 mm'
+      - 'Vì bản vẽ in sai'
+      - 'Vì vật thật dài 25 mm'
+      - 'Vì không được ghi kích thước lẻ'
+    correct: A
+  explanation: 'Đáp án A đúng: số ghi là độ lớn thật, hình vẽ theo tỉ lệ. B sai vì in đúng tỉ lệ. C sai vì vật dài 50 mm. D vô nghĩa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-06
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: gia-cong-co-khi
+  level: th
+  skill: recall
+  stem: 'Chi tiết dạng trục tròn xoay thường được gia công bằng phương pháp nào?'
+  mcq:
+    options:
+      - 'Tiện'
+      - 'Hàn hơi'
+      - 'Đúc ly tâm cỡ lớn'
+      - 'Rèn tự do'
+    correct: A
+  explanation: 'Đáp án A đúng với chi tiết tròn xoay. B để nối, C, D cho phôi/dạng khác.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-07
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: dong-co-dot-trong
+  level: vd
+  skill: recall
+  stem: 'Điểm khác nhau cơ bản giữa động cơ xăng và động cơ diesel là gì?'
+  mcq:
+    options:
+      - 'Xăng dùng bugi đánh lửa, diesel nén cao tự cháy không cần bugi'
+      - 'Diesel dùng bugi, xăng không dùng bugi'
+      - 'Xăng không có kỳ nổ'
+      - 'Diesel không có kỳ xả'
+    correct: A
+  explanation: 'Đáp án A đúng. B đảo ngược. C sai vì kỳ nổ sinh công ở cả hai. D sai vì cả hai đều xả khí thải.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-mcq-08
+  type: mcq
+  topicId: kien-thuc-bo-tro
+  subtopicId: gia-cong-co-khi
+  level: vd
+  skill: compute
+  stem: 'Bánh dẫn 20 răng, bánh bị dẫn 40 răng. Tỉ số truyền là bao nhiêu?'
+  mcq:
+    options:
+      - '2 (giảm tốc)'
+      - '0,5 (tăng tốc)'
+      - '60'
+      - '800'
+    correct: A
+  explanation: 'Đáp án A đúng: $i = z_2/z_1 = 40/20 = 2 > 1$ nên giảm tốc. B lấy nghịch đảo. C cộng, D nhân số răng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-tf4-01
+  type: tf4
+  topicId: kien-thuc-bo-tro
+  level: th
+  stem: 'Cho các nhận định về CAD/CAM và vật liệu. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'CAD hỗ trợ thiết kế trên máy tính.'
+        isTrue: true
+        explanation: 'Đúng theo chức năng của CAD.'
+      - key: b
+        text: 'CAM hỗ trợ lập trình gia công.'
+        isTrue: true
+        explanation: 'Đúng theo chức năng của CAM.'
+      - key: c
+        text: 'Máy CNC vận hành hoàn toàn bằng tay, không cần chương trình.'
+        isTrue: false
+        explanation: 'Sai: CNC điều khiển bằng chương trình số.'
+      - key: d
+        text: 'Nhựa được dùng làm vỏ cách điện cho dây dẫn.'
+        isTrue: true
+        explanation: 'Đúng vì nhựa cách điện tốt.'
+  explanation: 'Các ý a, b, d đúng; ý c sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: ktbt-tf4-02
+  type: tf4
+  topicId: kien-thuc-bo-tro
+  level: nb
+  stem: 'Cho các nhận định về vẽ kĩ thuật và động cơ. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Bốn kỳ của động cơ đốt trong là nạp – nén – nổ – xả.'
+        isTrue: true
+        explanation: 'Đúng theo nguyên lý làm việc.'
+      - key: b
+        text: 'Kỳ nổ là kỳ sinh công của động cơ.'
+        isTrue: true
+        explanation: 'Đúng: cháy giãn nở đẩy piston.'
+      - key: c
+        text: 'Động cơ diesel dùng bugi để đánh lửa.'
+        isTrue: false
+        explanation: 'Sai: diesel nén cao tự cháy.'
+      - key: d
+        text: 'Hình chiếu bằng thể hiện chiều dài và chiều rộng của vật.'
+        isTrue: true
+        explanation: 'Đúng theo định nghĩa hình chiếu bằng.'
+  explanation: 'Các ý a, b, d đúng; ý c sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]

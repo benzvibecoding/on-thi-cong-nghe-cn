@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dgd-mcq-05
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: nb
+  skill: recall
+  stem: 'Công tơ điện trong nhà dùng để làm gì?'
+  mcq:
+    options:
+      - 'Đo điện năng tiêu thụ để tính tiền điện'
+      - 'Tăng điện áp cho cả nhà'
+      - 'Phát ra điện khi mất điện'
+      - 'Bật tắt đèn tự động'
+    correct: A
+  explanation: 'Đáp án A đúng. B là việc của máy biến áp. C là máy phát/ắc quy dự phòng. D là cảm biến hoặc công tắc hẹn giờ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dgd-mcq-06
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: thiet-bi-dong-cat
+  level: nb
+  skill: recall
+  stem: 'Aptomat tổng của gia đình thường đặt ở đâu?'
+  mcq:
+    options:
+      - 'Sau công tơ, ở đầu hệ thống điện trong nhà'
+      - 'Sau từng bóng đèn'
+      - 'Trong tủ lạnh'
+      - 'Ngoài cột điện cao thế'
+    correct: A
+  explanation: 'Đáp án A đúng để bảo vệ toàn bộ hệ thống nhà. B sai vì đèn dùng công tắc riêng. C, D sai vị trí.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dgd-mcq-07
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: th
+  skill: interpret-diagram
+  stem: 'Hai bóng đèn giống hệt nhau, đều ghi 220 V, mắc nối tiếp vào nguồn 220 V. Hiện tượng nào xảy ra?'
+  mcq:
+    options:
+      - 'Cả hai sáng bình thường như khi dùng riêng'
+      - 'Mỗi đèn chỉ chịu khoảng 110 V nên sáng mờ hơn'
+      - 'Cả hai cháy ngay lập tức'
+      - 'Chỉ đèn thứ nhất sáng'
+    correct: B
+  explanation: 'Đáp án B đúng: đèn giống nhau chia đều điện áp, mỗi đèn thiếu áp nên sáng mờ. A sai vì thiếu áp. C sai vì không quá áp. D sai vì mạch nối tiếp cùng dòng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dgd-mcq-08
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: vd
+  skill: compute
+  stem: 'Một ấm điện ghi 220 V – 1100 W. Dòng điện định mức của ấm là bao nhiêu?'
+  mcq:
+    options:
+      - '0,2 A'
+      - '5 A'
+      - '242000 A'
+      - '1320 A'
+    correct: B
+  explanation: 'Đáp án B đúng: $I = P / U = 1100 / 220 = 5$ A. A lấy 220/1100. C lấy 220 x 1100. D lấy 220 + 1100.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dgd-tf4-02
+  type: tf4
+  topicId: dien-gia-dinh
+  level: nb
+  stem: 'Cho các nhận định về điện trong gia đình. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Công tơ điện đo lượng điện năng gia đình đã dùng.'
+        isTrue: true
+        explanation: 'Đúng theo chức năng của công tơ.'
+      - key: b
+        text: 'Aptomat tổng bảo vệ toàn bộ hệ thống điện trong nhà.'
+        isTrue: true
+        explanation: 'Đúng: nó ngắt khi quá tải hoặc ngắn mạch.'
+      - key: c
+        text: 'Ổ cắm trong nhà mắc nối tiếp với nhau.'
+        isTrue: false
+        explanation: 'Sai: các nhánh trong nhà mắc song song.'
+      - key: d
+        text: 'Dùng nhiều thiết bị công suất lớn chung một ổ cắm thì càng tiết kiệm.'
+        isTrue: false
+        explanation: 'Sai: gây quá tải, nguy cơ chập cháy.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

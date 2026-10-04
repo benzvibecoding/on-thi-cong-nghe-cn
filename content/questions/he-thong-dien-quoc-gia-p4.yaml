@@ -1,0 +1,39 @@
+# Seed dot 4 — status draft, [CAN GIAO VIEN DUYET].
+- id: htd-mcq-13
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: nb
+  skill: recall
+  stem: 'Nhiệm vụ của lưới điện truyền tải là gì?'
+  mcq:
+    options:
+      - 'Đưa điện từ nhà máy đến các trạm biến áp khu vực'
+      - 'Phát ra điện năng'
+      - 'Thắp sáng đường phố'
+      - 'Sửa chữa đồ điện gia dụng'
+    correct: A
+  explanation: 'Đáp án A đúng. B là nhà máy điện. C là lưới chiếu sáng đô thị. D là dịch vụ sửa chữa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: htd-mcq-14
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-dien-nang
+  level: nb
+  skill: recall
+  stem: 'Tế bào quang điện trong tấm pin mặt trời làm nhiệm vụ gì?'
+  mcq:
+    options:
+      - 'Biến quang năng thành điện năng'
+      - 'Biến điện năng thành quang năng'
+      - 'Tích nước để phát điện'
+      - 'Đốt than để phát điện'
+    correct: A
+  explanation: 'Đáp án A đúng. B là LED/bóng đèn. C là thủy điện. D là nhiệt điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]

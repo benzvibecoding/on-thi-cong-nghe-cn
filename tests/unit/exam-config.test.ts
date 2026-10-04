@@ -27,6 +27,10 @@ describe("exam-config", () => {
     expect(EXAM_CONFIG.levelRatio).toEqual({ nb: 4, th: 3, vd: 3 });
   });
 
+  it("ngay thi 2027 theo QD 2308: 11/6", () => {
+    expect(EXAM_CONFIG.examDateISO).toBe("2027-06-11");
+  });
+
   it("dem nguoc ngay thi giam dan theo thoi gian", () => {
     const a = daysUntilExam(new Date("2027-06-01T00:00:00+07:00"));
     const b = daysUntilExam(new Date("2027-06-09T00:00:00+07:00"));

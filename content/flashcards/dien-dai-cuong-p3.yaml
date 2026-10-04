@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: ddc-card-07
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Kĩ thuật điện gồm những khâu nào?'
+  back: 'Sản xuất, truyền tải, phân phối và sử dụng điện năng.'
+- id: ddc-card-08
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Kể một ngành nghề kĩ thuật điện và việc làm của nó.'
+  back: 'Vận hành lưới điện: giám sát, bảo trì đường dây và trạm biến áp.'

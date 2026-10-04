@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: vdk-card-07
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Bo mạch lập trình gồm gì? Muốn nó chạy theo ý mình thì làm sao?'
+  back: 'Chip VĐK + mạch nạp + cổng vào/ra; viết chương trình trên máy tính rồi nạp.'
+- id: vdk-card-08
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Muốn đèn tự sáng mạnh khi trời tối thì cần gì?'
+  back: 'Cảm biến ánh sáng + VĐK điều xung (PWM) theo chương trình.'

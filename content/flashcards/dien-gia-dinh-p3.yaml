@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: dgd-card-07
+  topicId: dien-gia-dinh
+  kind: term
+  front: '"30 A – 250 V" trên cầu dao nghĩa là gì?'
+  back: 'Dòng định mức 30 A, điện áp định mức 250 V.'
+- id: dgd-card-08
+  topicId: dien-gia-dinh
+  kind: term
+  front: 'Mạch đèn cầu thang dùng gì để bật/tắt từ hai nơi?'
+  back: 'Hai công tắc 3 cực phối hợp điều khiển một bóng đèn.'

@@ -5,65 +5,72 @@
     {
       "topicId": "dien-dai-cuong",
       "title": "Giới thiệu chung về kĩ thuật điện",
-      "count": 5,
-      "cards": 4,
-      "hash": "1dd91024a2c3e9b5"
+      "count": 15,
+      "cards": 8,
+      "hash": "1359e5784b63cc4a"
     },
     {
       "topicId": "he-thong-dien-quoc-gia",
       "title": "Hệ thống điện quốc gia",
-      "count": 5,
-      "cards": 4,
-      "hash": "74bf0c37fb010715"
+      "count": 17,
+      "cards": 9,
+      "hash": "27f8c491fc36cbc2"
     },
     {
       "topicId": "dien-gia-dinh",
       "title": "Hệ thống điện trong gia đình",
-      "count": 5,
-      "cards": 4,
-      "hash": "b867d60405293ef5"
+      "count": 18,
+      "cards": 9,
+      "hash": "c1c1179528b4377b"
     },
     {
       "topicId": "an-toan-tiet-kiem",
       "title": "An toàn và tiết kiệm điện năng",
-      "count": 5,
-      "cards": 4,
-      "hash": "e5ba46ec73ec2c18"
+      "count": 15,
+      "cards": 8,
+      "hash": "e56ab06b194cb7a8"
     },
     {
       "topicId": "dien-tu-dai-cuong",
       "title": "Giới thiệu chung về kĩ thuật điện tử",
-      "count": 5,
-      "cards": 4,
-      "hash": "b6adb564119f58c2"
+      "count": 15,
+      "cards": 8,
+      "hash": "07dd63ab151c62b5"
     },
     {
       "topicId": "linh-kien-dien-tu",
       "title": "Linh kiện điện tử",
-      "count": 5,
-      "cards": 4,
-      "hash": "b611711e2cd521b5"
+      "count": 15,
+      "cards": 8,
+      "hash": "cbce8b1f2e286b70"
     },
     {
       "topicId": "dien-tu-tuong-tu",
       "title": "Điện tử tương tự",
-      "count": 5,
-      "cards": 4,
-      "hash": "5231b5b3c7c172dc"
+      "count": 15,
+      "cards": 8,
+      "hash": "471c775dd2a4d50b"
     },
     {
       "topicId": "dien-tu-so",
       "title": "Điện tử số",
-      "count": 5,
-      "cards": 4,
-      "hash": "61b74a70b49e2b52"
+      "count": 15,
+      "cards": 8,
+      "hash": "6f430564146b744a"
     },
     {
       "topicId": "vi-dieu-khien",
       "title": "Vi điều khiển",
-      "count": 5,
+      "count": 15,
+      "cards": 8,
+      "hash": "738e88fea06ba284"
+    },
+    {
+      "topicId": "kien-thuc-bo-tro",
+      "title": "Kiến thức bổ trợ lớp 10–11",
+      "count": 10,
       "cards": 4,
-      "hash": "0a0a9a3a25c1f25a"
+      "hash": "976ef532a2dca460"
     }
   ]
 }

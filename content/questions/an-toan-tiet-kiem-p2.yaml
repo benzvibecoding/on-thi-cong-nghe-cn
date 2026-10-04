@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: attk-mcq-05
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: nb
+  skill: recall
+  stem: 'Nối đất vỏ kim loại của thiết bị điện có tác dụng gì?'
+  mcq:
+    options:
+      - 'Làm thiết bị chạy nhanh hơn'
+      - 'Cho dòng điện rò thoát xuống đất, giảm nguy cơ điện giật'
+      - 'Giảm tiền điện'
+      - 'Tăng độ sáng của đèn'
+    correct: B
+  explanation: 'Đáp án B đúng. A, C, D không phải tác dụng của nối đất.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: attk-mcq-06
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: nb
+  skill: recall
+  stem: 'Thấy người bị điện giật còn dính vào dây điện, việc KHÔNG được làm là gì?'
+  mcq:
+    options:
+      - 'Ngắt nguồn điện bằng cách an toàn'
+      - 'Dùng tay trần kéo nạn nhân ra khỏi dây điện'
+      - 'Gọi cấp cứu'
+      - 'Dùng vật cách điện gạt dây ra'
+    correct: B
+  explanation: 'Đáp án B đúng vì chạm trực tiếp làm mình cũng bị giật. A, C, D đều đúng quy trình.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: attk-mcq-07
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: th
+  skill: recall
+  stem: 'Vì sao chim đậu trên dây điện cao thế đang có điện thường không bị giật?'
+  mcq:
+    options:
+      - 'Vì chim có lông cách điện tuyệt đối'
+      - 'Vì chim chỉ chạm một điểm, không có chênh lệch điện thế qua người nên không có dòng điện'
+      - 'Vì điện cao thế không nguy hiểm'
+      - 'Vì dây cao thế không có điện ban ngày'
+    correct: B
+  explanation: 'Đáp án B đúng: không có vòng kín qua người nên không có dòng. A sai vì lông không cách tuyệt đối. C, D sai vì cao thế rất nguy hiểm và luôn có điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: attk-mcq-08
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: vd
+  skill: real-world
+  stem: 'Sau bão, một đoạn dây điện đứt rơi xuống đường. Hành động đúng của bạn là gì?'
+  mcq:
+    options:
+      - 'Nhặt dây lên buộc lại giúp ngành điện'
+      - 'Tránh xa, cảnh báo người xung quanh và báo cho cơ quan điện'
+      - 'Dùng gậy khô khều dây ra giữa đường cho xe đi'
+      - 'Đi sát xem dây còn điện hay không'
+    correct: B
+  explanation: 'Đáp án B đúng. A và D đưa mình vào vùng nguy hiểm. C sai vì người không chuyên không được tự ý xử lý lưới điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: attk-tf4-02
+  type: tf4
+  topicId: an-toan-tiet-kiem
+  level: nb
+  stem: 'Cho các nhận định về an toàn điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Nơi ẩm ướt nên dùng thiết bị chống giật chuyên dụng.'
+        isTrue: true
+        explanation: 'Đúng vì nước dẫn điện, nguy cơ giật cao.'
+      - key: b
+        text: 'Được phép tự ý leo cột điện để mắc nhờ điện.'
+        isTrue: false
+        explanation: 'Sai và vi phạm pháp luật, cực kỳ nguy hiểm.'
+      - key: c
+        text: 'Trước khi thay bóng đèn nên ngắt nguồn mạch đó.'
+        isTrue: true
+        explanation: 'Đúng theo nguyên tắc ngắt nguồn trước khi sửa.'
+      - key: d
+        text: 'Dùng điện tiết kiệm cũng góp phần giảm quá tải lưới điện.'
+        isTrue: true
+        explanation: 'Đúng: phụ tải giảm thì lưới bớt quá tải.'
+  explanation: 'Ý b sai; các ý a, c, d đúng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

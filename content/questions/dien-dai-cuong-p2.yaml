@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: ddc-mcq-05
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: nb
+  skill: recall
+  stem: 'Thiết bị nào biến điện năng thành cơ năng?'
+  mcq:
+    options:
+      - 'Bóng đèn sợi đốt'
+      - 'Động cơ điện'
+      - 'Bếp điện'
+      - 'Máy biến áp'
+    correct: B
+  explanation: 'Đáp án B đúng. A biến điện thành quang + nhiệt, C thành nhiệt, D chỉ đổi mức điện áp chứ không tiêu thụ thành cơ năng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: ddc-mcq-06
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: nb
+  skill: recall
+  stem: 'Truyền tải điện năng đi xa thuận lợi chủ yếu vì sao?'
+  mcq:
+    options:
+      - 'Vì dây dẫn rất nhẹ'
+      - 'Vì dễ nâng lên và hạ xuống mức điện áp xoay chiều'
+      - 'Vì điện tự chạy không cần dây'
+      - 'Vì không bao giờ mất điện'
+    correct: B
+  explanation: 'Đáp án B đúng: máy biến áp đổi mức áp xoay chiều dễ dàng nên truyền xa ở áp cao, dùng ở áp thấp. A sai vì dây vẫn nặng và tốn kém. C, D sai thực tế.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: ddc-mcq-07
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: th
+  skill: recall
+  stem: 'Vì sao điện năng gắn chặt với tự động hóa sản xuất?'
+  mcq:
+    options:
+      - 'Vì điện năng rẻ nên không cần điều khiển'
+      - 'Vì dễ đóng ngắt, điều khiển chính xác và phối hợp với mạch điện tử'
+      - 'Vì máy nào cũng chạy được mà không cần điện'
+      - 'Vì điện năng tự vận hành dây chuyền'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì rẻ không thay thế điều khiển. C sai vì máy cần năng lượng. D sai vì cần hệ thống điều khiển.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: ddc-mcq-08
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: vd
+  skill: real-world
+  stem: 'Vào giờ cao điểm, ngành điện kêu gọi tiết kiệm điện. Mục đích chính là gì?'
+  mcq:
+    options:
+      - 'Để tăng giá bán điện'
+      - 'Để tránh quá tải lưới điện và thiếu nguồn cục bộ'
+      - 'Để nhà máy điện nghỉ ngơi'
+      - 'Để dây dẫn bền màu hơn'
+    correct: B
+  explanation: 'Đáp án B đúng: phụ tải đỉnh vượt khả năng nguồn và lưới gây quá tải, sụt áp. A sai về động cơ kinh tế. C sai vì nhà máy chạy liên tục. D vô nghĩa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: ddc-tf4-02
+  type: tf4
+  topicId: dien-dai-cuong
+  level: nb
+  stem: 'Cho các nhận định về vai trò của điện năng. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Bóng đèn biến điện năng thành quang năng.'
+        isTrue: true
+        explanation: 'Đúng: đó là mục đích của đèn chiếu sáng.'
+      - key: b
+        text: 'Bếp điện biến điện năng thành nhiệt năng.'
+        isTrue: true
+        explanation: 'Đúng theo nguyên lý của bếp điện trở.'
+      - key: c
+        text: 'Mọi thiết bị điện đều biến điện năng thành cơ năng.'
+        isTrue: false
+        explanation: 'Sai: mỗi thiết bị biến thành dạng năng lượng khác nhau.'
+      - key: d
+        text: 'Điện năng khó truyền tải đi xa nên mỗi nhà phải tự sản xuất.'
+        isTrue: false
+        explanation: 'Sai: điện năng dễ truyền tải đi xa qua lưới điện.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

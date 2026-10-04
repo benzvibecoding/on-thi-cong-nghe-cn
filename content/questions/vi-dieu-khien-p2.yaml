@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: vdk-mcq-05
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: cau-truc-vdk
+  level: nb
+  skill: recall
+  stem: 'RAM và flash trong vi điều khiển khác nhau ở điểm nào?'
+  mcq:
+    options:
+      - 'RAM giữ dữ liệu khi mất nguồn, flash thì mất'
+      - 'Flash giữ chương trình khi mất nguồn, RAM mất dữ liệu tạm khi mất nguồn'
+      - 'Cả hai đều mất hết khi mất nguồn'
+      - 'Cả hai đều không bao giờ mất dữ liệu'
+    correct: B
+  explanation: 'Đáp án B đúng. A đảo ngược. C sai vì flash không mất. D sai vì RAM mất khi mất nguồn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: vdk-mcq-06
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: ung-dung-vdk
+  level: nb
+  skill: recall
+  stem: 'Điều xung (PWM) từ vi điều khiển thường dùng để làm gì?'
+  mcq:
+    options:
+      - 'Điều chỉnh độ sáng đèn hoặc tốc độ động cơ'
+      - 'Nạp chương trình vào chip'
+      - 'Đo điện áp lưới quốc gia'
+      - 'Thay pin cho mạch'
+    correct: A
+  explanation: 'Đáp án A đúng. B là mạch nạp. C là đồng hồ đo. D là thao tác phần cứng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: vdk-mcq-07
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: ung-dung-vdk
+  level: th
+  skill: recall
+  stem: 'Vi điều khiển "biết" khi nào cần bật quạt trong hệ thống quạt tự động?'
+  mcq:
+    options:
+      - 'Nhờ cảm biến tự quyết định'
+      - 'Nhờ so sánh giá trị cảm biến với ngưỡng đặt trong chương trình'
+      - 'Nhờ cánh quạt tự quay khi nóng'
+      - 'Nhờ dây dẫn báo hiệu'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì cảm biến chỉ đo. C, D không ra quyết định.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: vdk-mcq-08
+  type: mcq
+  topicId: vi-dieu-khien
+  subtopicId: ung-dung-vdk
+  level: vd
+  skill: troubleshoot
+  stem: 'Đã nạp chương trình mới nhưng mạch vẫn chạy y như chương trình cũ. Nên kiểm tra gì đầu tiên?'
+  mcq:
+    options:
+      - 'Màu vỏ hộp mạch'
+      - 'Việc nạp có thật sự thành công không, rồi nhấn reset cho chạy lại'
+      - 'Độ dài của dây USB'
+      - 'Tên file chương trình có hay không'
+    correct: B
+  explanation: 'Đáp án B đúng: nạp lỗi hoặc chưa reset là nguyên nhân phổ biến nhất. A, C, D không ảnh hưởng hành vi chương trình.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: vdk-tf4-02
+  type: tf4
+  topicId: vi-dieu-khien
+  level: nb
+  stem: 'Cho các nhận định về vi điều khiển. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Flash lưu chương trình nên không mất khi mất nguồn.'
+        isTrue: true
+        explanation: 'Đúng với tính chất bộ nhớ flash.'
+      - key: b
+        text: 'RAM giữ nguyên dữ liệu tạm cả khi đã ngắt nguồn.'
+        isTrue: false
+        explanation: 'Sai: RAM mất dữ liệu khi mất nguồn.'
+      - key: c
+        text: 'Cổng vào/ra giúp vi điều khiển đọc cảm biến và điều khiển thiết bị.'
+        isTrue: true
+        explanation: 'Đúng theo cấu trúc vào – xử lý – ra.'
+      - key: d
+        text: 'Mọi thay đổi hành vi đều phải thay chip mới, không thể nạp lại.'
+        isTrue: false
+        explanation: 'Sai: chỉ cần sửa và nạp lại chương trình.'
+  explanation: 'Các ý a, c đúng; b, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

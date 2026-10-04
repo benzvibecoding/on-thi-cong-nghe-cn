@@ -1,0 +1,21 @@
+# Seed flashcards dot 4 — status draft.
+- id: ktbt-card-01
+  topicId: kien-thuc-bo-tro
+  kind: term
+  front: 'Ba hình chiếu vuông góc thể hiện những kích thước nào?'
+  back: 'Đứng: dài × cao; bằng: dài × rộng; cạnh: rộng × cao.'
+- id: ktbt-card-02
+  topicId: kien-thuc-bo-tro
+  kind: term
+  front: 'Bốn kỳ động cơ đốt trong và điểm khác xăng/diesel?'
+  back: 'Nạp – nén – nổ – xả; xăng có bugi, diesel nén tự cháy.'
+- id: ktbt-card-03
+  topicId: kien-thuc-bo-tro
+  kind: formula
+  front: 'Bánh dẫn 20 răng, bị dẫn 40 răng thì tỉ số truyền là bao nhiêu?'
+  back: '$i = 40/20 = 2$ (giảm tốc)'
+- id: ktbt-card-04
+  topicId: kien-thuc-bo-tro
+  kind: term
+  front: 'CAD, CAM, CNC là gì?'
+  back: 'CAD thiết kế, CAM lập trình gia công, CNC máy điều khiển số.'

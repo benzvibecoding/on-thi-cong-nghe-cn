@@ -17,6 +17,12 @@ topics:
     subtopics:
       - id: san-xuat-truyen-tai
         title: Sản xuất và truyền tải điện năng
+      - id: mach-3-pha
+        title: Mạch điện xoay chiều ba pha
+      - id: san-xuat-dien-nang
+        title: Các phương pháp sản xuất điện năng
+      - id: mang-dien-nho
+        title: Mạng điện quy mô nhỏ và hạ áp sinh hoạt
       - id: phan-phoi-su-dung
         title: Phân phối và sử dụng điện năng
   - id: dien-gia-dinh
@@ -27,6 +33,10 @@ topics:
         title: Mạch điện trong gia đình
       - id: thiet-bi-dong-cat
         title: Thiết bị đóng cắt và bảo vệ
+      - id: thiet-bi-dien
+        title: Thiết bị điện và thông số định mức
+      - id: mach-cau-thang
+        title: Mạch điều khiển đèn cầu thang
   - id: an-toan-tiet-kiem
     title: An toàn và tiết kiệm điện năng
     weight: 1
@@ -41,6 +51,8 @@ topics:
     subtopics:
       - id: vai-tro-dien-tu
         title: Vai trò của kĩ thuật điện tử
+      - id: nganh-nghe-dv
+        title: Ngành nghề và dịch vụ điện tử
       - id: mach-dien-tu-coban
         title: Mạch điện tử cơ bản
   - id: linh-kien-dien-tu
@@ -51,12 +63,16 @@ topics:
         title: Điện trở, tụ điện, cuộn cảm
       - id: linh-kien-ban-dan
         title: Diode, transistor
+      - id: mach-tich-hop
+        title: Mạch tích hợp IC
   - id: dien-tu-tuong-tu
     title: Điện tử tương tự
     weight: 1
     subtopics:
       - id: khu-ech-dai
         title: Mạch khuếch đại
+      - id: op-amp
+        title: Khuếch đại thuật toán
       - id: nguon-mot-chieu
         title: Nguồn một chiều
   - id: dien-tu-so
@@ -67,11 +83,29 @@ topics:
         title: Cổng logic cơ bản
       - id: mach-to-hop
         title: Mạch tổ hợp
+      - id: mach-day
+        title: Mạch dãy và phần tử nhớ
   - id: vi-dieu-khien
     title: Vi điều khiển
     weight: 1
     subtopics:
       - id: cau-truc-vdk
         title: Cấu trúc vi điều khiển
+      - id: bo-mach
+        title: Bo mạch lập trình vi điều khiển
       - id: ung-dung-vdk
         title: Ứng dụng vi điều khiển
+  - id: kien-thuc-bo-tro
+    title: Kiến thức bổ trợ lớp 10–11
+    weight: 1
+    subtopics:
+      - id: ve-ki-thuat
+        title: Vẽ kĩ thuật
+      - id: vat-lieu-co-khi
+        title: Vật liệu cơ khí
+      - id: gia-cong-co-khi
+        title: Gia công cơ khí
+      - id: dong-co-dot-trong
+        title: Động cơ đốt trong
+      - id: cad-cam
+        title: CAD/CAM và máy CNC

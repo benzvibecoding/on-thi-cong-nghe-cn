@@ -21,7 +21,7 @@ typecheck → test → build. Mỗi PR có Preview Deployment.
 2. Framework: Next.js (tự nhận). Build command mặc định (`pnpm build` —
    đã gồm `build-packs`). Output: `.next`.
 3. Region: chọn gần VN nhất (Singapore nếu gói cho phép) [CẦN KIỂM TRA].
-4. Biến môi trường tối thiểu: `NEXT_PUBLIC_SITE_URL=https://<domain-cua-ban>`.
+4. Biến môi trường tối thiểu: `SITE_URL=https://<domain-cua-ban>` (server-only, không tiền tố public).
 5. Deploy → mở URL → chạy smoke test mục 5.
 
 ## 3. Bật Supabase (tùy chọn, M9)

@@ -1,0 +1,11 @@
+# Seed flashcards dot 3 — status draft.
+- id: dttt-card-07
+  topicId: dien-tu-tuong-tu
+  kind: formula
+  front: 'Mạch khuếch đại đảo $R_1 = 2$ kΩ, $R_f = 10$ kΩ, vào $0{,}5$ V thì ra bao nhiêu?'
+  back: '$A = -R_f/R_1 = -5$ nên ra $-2{,}5$ V (đảo dấu)'
+- id: dttt-card-08
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Mạch so sánh dùng op-amp để làm gì?'
+  back: 'Cho biết ngõ vào nào lớn hơn.'

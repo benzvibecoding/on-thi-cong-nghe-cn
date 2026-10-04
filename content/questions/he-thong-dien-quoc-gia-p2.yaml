@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: htd-mcq-05
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: nb
+  skill: recall
+  stem: 'Nguồn điện của hệ thống điện quốc gia gồm những loại nào?'
+  mcq:
+    options:
+      - 'Chỉ có nhiệt điện'
+      - 'Thủy điện, nhiệt điện, điện gió, điện mặt trời và các dạng khác'
+      - 'Chỉ có pin tiểu và ắc quy'
+      - 'Chỉ có máy phát điện của từng gia đình'
+    correct: B
+  explanation: 'Đáp án B đúng. A thu hẹp nguồn. C chỉ là nguồn nhỏ dự phòng. D không phải nguồn của hệ thống quốc gia.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: htd-mcq-06
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: nb
+  skill: recall
+  stem: 'Máy biến áp tăng áp thường đặt ở đâu?'
+  mcq:
+    options:
+      - 'Sau ổ cắm trong nhà'
+      - 'Ở đầu đường dây, gần nhà máy điện'
+      - 'Trong bóng đèn'
+      - 'Trong công tơ điện'
+    correct: B
+  explanation: 'Đáp án B đúng: nâng áp ngay sau phát để truyền xa. A, C, D đều là phía sử dụng ở áp thấp.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: htd-mcq-07
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: th
+  skill: compute
+  stem: 'Truyền cùng một công suất trên đường dây có điện trở không đổi. Nếu điện áp tăng gấp đôi thì dòng điện và hao phí thay đổi thế nào?'
+  mcq:
+    options:
+      - 'Dòng giảm một nửa, hao phí giảm còn một phần tư'
+      - 'Dòng tăng gấp đôi, hao phí tăng gấp đôi'
+      - 'Dòng không đổi, hao phí giảm một nửa'
+      - 'Dòng giảm một nửa, hao phí không đổi'
+    correct: A
+  explanation: 'Đáp án A đúng: $I = P/U$ nên I giảm nửa; $P_{hp} = I^2 R$ nên hao phí còn 1/4. Các đáp án còn lại tính sai quan hệ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: htd-mcq-08
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: vd
+  skill: recall
+  stem: 'Muốn giảm điện trở của đường dây (cùng chiều dài và vật liệu) thì làm thế nào?'
+  mcq:
+    options:
+      - 'Giảm tiết diện dây'
+      - 'Tăng tiết diện dây'
+      - 'Sơn dây màu khác'
+      - 'Tăng điện áp sử dụng'
+    correct: B
+  explanation: 'Đáp án B đúng: điện trở tỉ lệ nghịch với tiết diện. A làm ngược lại. C không ảnh hưởng điện trở. D giảm dòng chứ không giảm điện trở dây.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: htd-tf4-02
+  type: tf4
+  topicId: he-thong-dien-quoc-gia
+  level: nb
+  stem: 'Cho các nhận định về hệ thống điện quốc gia. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Điện gió và điện mặt trời là các nguồn điện trong hệ thống.'
+        isTrue: true
+        explanation: 'Đúng: nguồn tái tạo tham gia vào hệ thống điện.'
+      - key: b
+        text: 'Trạm biến áp chỉ có ở cuối đường dây, gần nơi tiêu thụ.'
+        isTrue: false
+        explanation: 'Sai: có trạm tăng áp ở đầu phát và trạm hạ áp ở đầu nhận.'
+      - key: c
+        text: 'Điện trở dây càng lớn thì hao phí tỏa nhiệt càng lớn.'
+        isTrue: true
+        explanation: 'Đúng theo $P_{hp} = I^2 \\cdot R$.'
+      - key: d
+        text: 'Người dùng sinh hoạt nhận điện trực tiếp ở điện áp truyền tải cao.'
+        isTrue: false
+        explanation: 'Sai: phải hạ áp qua nhiều cấp mới tới người dùng.'
+  explanation: 'Các ý a, c đúng; b, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

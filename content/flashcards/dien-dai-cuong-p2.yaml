@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: ddc-card-05
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Kể ba dạng năng lượng mà điện năng thường được biến thành.'
+  back: 'Cơ năng (động cơ), nhiệt năng (bếp điện), quang năng (bóng đèn).'
+- id: ddc-card-06
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Giờ cao điểm dùng điện cần làm gì? Vì sao?'
+  back: 'Tiết kiệm điện để tránh quá tải lưới và thiếu nguồn cục bộ.'

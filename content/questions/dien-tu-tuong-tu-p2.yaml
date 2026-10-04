@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dttt-mcq-05
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: nguon-mot-chieu
+  level: nb
+  skill: recall
+  stem: 'Khối hạ áp trong nguồn một chiều thường dùng linh kiện nào?'
+  mcq:
+    options:
+      - 'Máy biến áp hạ áp'
+      - 'LED'
+      - 'Loa'
+      - 'Công tắc'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C, D không có chức năng hạ điện áp xoay chiều.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dttt-mcq-06
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: khu-ech-dai
+  level: nb
+  skill: recall
+  stem: 'Mạch khuếch đại giữ nguyên yếu tố nào của tín hiệu?'
+  mcq:
+    options:
+      - 'Giữ nguyên dạng sóng, chỉ làm biên độ lớn hơn'
+      - 'Đổi tín hiệu tương tự thành số'
+      - 'Đổi chiều dòng điện'
+      - 'Lưu tín hiệu vào bộ nhớ'
+    correct: A
+  explanation: 'Đáp án A đúng theo định nghĩa. B thuộc điện tử số. C là chỉnh lưu. D là bộ nhớ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dttt-mcq-07
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: khu-ech-dai
+  level: th
+  skill: recall
+  stem: 'Mạch khuếch đại có tự tạo thêm năng lượng mà không cần nguồn nuôi không?'
+  mcq:
+    options:
+      - 'Có, khuếch đại tự sinh năng lượng'
+      - 'Không, năng lượng lấy từ nguồn nuôi'
+      - 'Có, lấy từ tín hiệu vào là đủ'
+      - 'Không, vì khuếch đại không làm tín hiệu lớn hơn'
+    correct: B
+  explanation: 'Đáp án B đúng, tuân thủ bảo toàn năng lượng. A và C sai vật lý. D sai vì khuếch đại làm tín hiệu lớn hơn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dttt-mcq-08
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: nguon-mot-chieu
+  level: vd
+  skill: recall
+  stem: 'Sắp xếp đúng trình tự các khối của nguồn một chiều.'
+  mcq:
+    options:
+      - 'Hạ áp → chỉnh lưu → lọc → ổn áp'
+      - 'Chỉnh lưu → hạ áp → ổn áp → lọc'
+      - 'Lọc → ổn áp → hạ áp → chỉnh lưu'
+      - 'Ổn áp → lọc → chỉnh lưu → hạ áp'
+    correct: A
+  explanation: 'Đáp án A đúng. B sai vì phải hạ áp trước khi chỉnh lưu. C và D đảo ngược toàn bộ trình tự.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dttt-tf4-02
+  type: tf4
+  topicId: dien-tu-tuong-tu
+  level: nb
+  stem: 'Cho các nhận định về nguồn một chiều. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Khối hạ áp giảm điện áp xoay chiều xuống mức cần thiết.'
+        isTrue: true
+        explanation: 'Đúng theo chức năng khối hạ áp.'
+      - key: b
+        text: 'Khối chỉnh lưu dùng diode để tạo dòng một chiều nhấp nhô.'
+        isTrue: true
+        explanation: 'Đúng với nguyên lý chỉnh lưu.'
+      - key: c
+        text: 'Bỏ khối ổn áp thì điện áp ra vẫn luôn ổn định.'
+        isTrue: false
+        explanation: 'Sai: thiếu ổn áp, điện áp ra thay đổi theo tải và lưới.'
+      - key: d
+        text: 'Khuếch đại làm méo hoàn toàn dạng sóng của tín hiệu vào.'
+        isTrue: false
+        explanation: 'Sai: khuếch đại tốt giữ nguyên dạng sóng.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

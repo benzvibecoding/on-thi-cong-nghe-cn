@@ -1,0 +1,11 @@
+# Seed flashcards dot 2 — status draft.
+- id: dtso-card-05
+  topicId: dien-tu-so
+  kind: formula
+  front: 'Cổng AND ba ngõ vào ra 1 khi nào?'
+  back: 'Chỉ khi cả ba ngõ vào đều bằng 1.'
+- id: dtso-card-06
+  topicId: dien-tu-so
+  kind: term
+  front: 'Mạch tổ hợp khác mạch dãy ở điểm nào?'
+  back: 'Tổ hợp không nhớ trạng thái trước; ngõ ra chỉ phụ thuộc ngõ vào hiện tại.'

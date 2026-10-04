@@ -1,0 +1,58 @@
+# Seed dot 4 (theo de luyen 2026) — status draft, [CAN GIAO VIEN DUYET].
+- id: dgd-mcq-13
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: thiet-bi-dien
+  level: nb
+  skill: recall
+  stem: 'Dùng thiết bị nào để kiểm tra hiệu điện thế của nguồn điện trong gia đình?'
+  mcq:
+    options:
+      - 'Vôn kế mắc song song với nguồn'
+      - 'Ampe kế mắc song song với nguồn'
+      - 'Nhiệt kế'
+      - 'Thước dây'
+    correct: A
+  explanation: 'Đáp án A đúng. B sai vì ampe kế phải mắc nối tiếp và đo dòng, không đo áp. C, D không phải thiết bị điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: dgd-mcq-14
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: thiet-bi-dien
+  level: nb
+  skill: recall
+  stem: 'Muốn đo dòng điện qua một bóng đèn thì mắc ampe kế thế nào?'
+  mcq:
+    options:
+      - 'Mắc nối tiếp với bóng đèn'
+      - 'Mắc song song với bóng đèn'
+      - 'Đặt cạnh bóng đèn là được'
+      - 'Mắc vào dây trung tính bất kỳ'
+    correct: A
+  explanation: 'Đáp án A đúng: nối tiếp để cùng dòng chạy qua. B sai vì gây ngắn mạch qua ampe kế. C không đo được. D sai vị trí.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]
+- id: dgd-mcq-15
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: th
+  skill: recall
+  stem: 'Trình tự đúng của mạng điện trong nhà từ nguồn tới tải là gì?'
+  mcq:
+    options:
+      - 'Nguồn → công tơ → aptomat tổng → các mạch nhánh → thiết bị tiêu thụ'
+      - 'Nguồn → thiết bị → công tơ → aptomat'
+      - 'Aptomat → công tơ → nguồn → thiết bị'
+      - 'Công tơ → nguồn → thiết bị → aptomat'
+    correct: A
+  explanation: 'Đáp án A đúng theo cấu trúc chuẩn. B sai vì thiết bị ở cuối. C, D đảo ngược dòng năng lượng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-4]

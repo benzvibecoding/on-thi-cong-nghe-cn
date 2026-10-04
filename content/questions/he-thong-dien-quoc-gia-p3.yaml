@@ -1,0 +1,105 @@
+# Seed dot 3 (theo chuong trinh GDPT 2018) — status draft, [CAN GIAO VIEN DUYET].
+- id: htd-mcq-09
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: mach-3-pha
+  level: nb
+  skill: recall
+  stem: 'Máy phát điện xoay chiều ba pha có cấu tạo đặc trưng nào?'
+  mcq:
+    options:
+      - 'Ba cuộn dây đặt lệch nhau 120 độ'
+      - 'Một cuộn dây duy nhất'
+      - 'Ba cục pin mắc nối tiếp'
+      - 'Hai nam châm đặt song song'
+    correct: A
+  explanation: 'Đáp án A đúng: ba cuộn lệch 120 độ tạo ba sức điện động lệch pha nhau. B là máy phát một pha. C, D không phải cấu tạo máy phát xoay chiều.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: htd-mcq-10
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: mach-3-pha
+  level: th
+  skill: compute
+  stem: 'Mạng điện ba pha đối xứng nối sao có điện áp pha 220 V. Điện áp dây là bao nhiêu?'
+  mcq:
+    options:
+      - '220 V'
+      - 'Khoảng 381 V'
+      - '660 V'
+      - '127 V'
+    correct: B
+  explanation: 'Đáp án B đúng: nối sao $U_d = \\sqrt{3} \\cdot U_p \\approx 1{,}732 \\cdot 220 \\approx 381$ V. A nhầm dây với pha. C lấy 220 x 3. D lấy 220 / √3.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: htd-mcq-11
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-dien-nang
+  level: nb
+  skill: recall
+  stem: 'Nhà máy thủy điện biến đổi dạng năng lượng nào thành điện năng?'
+  mcq:
+    options:
+      - 'Thế năng của nước thành điện năng'
+      - 'Nhiệt năng của than thành điện năng trực tiếp'
+      - 'Quang năng thành điện năng'
+      - 'Động năng của gió thành điện năng'
+    correct: A
+  explanation: 'Đáp án A đúng. B là nhiệt điện. C là điện mặt trời. D là điện gió.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: htd-mcq-12
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-dien-nang
+  level: vd
+  skill: recall
+  stem: 'Hạn chế chung lớn nhất của điện gió và điện mặt trời là gì?'
+  mcq:
+    options:
+      - 'Công suất phụ thuộc điều kiện thời tiết, không ổn định'
+      - 'Không bao giờ phát được điện'
+      - 'Gây ô nhiễm khói bụi lớn'
+      - 'Tiêu thụ nhiều than đá'
+    correct: A
+  explanation: 'Đáp án A đúng. B sai vì vẫn phát điện tốt khi đủ nắng/gió. C, D là nhược điểm của nhiệt điện than, không phải của gió/mặt trời.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: htd-tf4-03
+  type: tf4
+  topicId: he-thong-dien-quoc-gia
+  level: th
+  stem: 'Cho các nhận định về mạch ba pha và sản xuất điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Ba cuộn dây của máy phát ba pha đặt lệch nhau 120 độ.'
+        isTrue: true
+        explanation: 'Đúng theo cấu tạo máy phát ba pha.'
+      - key: b
+        text: 'Nối sao: điện áp dây bằng điện áp pha.'
+        isTrue: false
+        explanation: 'Sai: nối sao $U_d = \\sqrt{3} \\cdot U_p$.'
+      - key: c
+        text: 'Nhiệt điện dùng nhiệt năng từ đốt nhiên liệu để phát điện.'
+        isTrue: true
+        explanation: 'Đúng theo nguyên lý nhiệt điện.'
+      - key: d
+        text: 'Điện mặt trời cho công suất ổn định cả ngày lẫn đêm.'
+        isTrue: false
+        explanation: 'Sai: ban đêm không có nắng nên không phát điện.'
+  explanation: 'Các ý a, c đúng; b, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

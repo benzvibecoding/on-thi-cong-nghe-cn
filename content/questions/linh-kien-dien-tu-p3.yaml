@@ -1,0 +1,105 @@
+# Seed dot 3 (IC theo chuong trinh) — status draft, [CAN GIAO VIEN DUYET].
+- id: lkdt-mcq-09
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: mach-tich-hop
+  level: nb
+  skill: recall
+  stem: 'Mạch tích hợp IC là gì?'
+  mcq:
+    options:
+      - 'Mạch tích hợp nhiều linh kiện trên một chip bán dẫn nhỏ'
+      - 'Dây dẫn điện thông thường'
+      - 'Cầu chì bảo vệ'
+      - 'Ổ cắm điện'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C, D là các phần tử/thiết bị điện thông thường.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: lkdt-mcq-10
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: mach-tich-hop
+  level: nb
+  skill: recall
+  stem: 'Ưu điểm nổi bật của mạch tích hợp IC so với mạch lắp linh kiện rời là gì?'
+  mcq:
+    options:
+      - 'Gọn nhẹ, tin cậy cao'
+      - 'To và nặng hơn'
+      - 'Dễ hỏng hơn'
+      - 'Tốn nhiều dây nối hơn'
+    correct: A
+  explanation: 'Đáp án A đúng. B, C, D mô tả ngược lại ưu điểm của IC.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: lkdt-mcq-11
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-ban-dan
+  level: th
+  skill: troubleshoot
+  stem: 'Trong mạch điều khiển LED dùng transistor, transistor đóng vai trò gì?'
+  mcq:
+    options:
+      - 'Khóa điện tử đóng/ngắt dòng qua LED theo tín hiệu điều khiển'
+      - 'Nguồn nuôi cho mạch'
+      - 'Vỏ bảo vệ LED'
+      - 'Dây nối LED với nguồn'
+    correct: A
+  explanation: 'Đáp án A đúng. B là khối nguồn, C là vỏ cơ khí, D là dây dẫn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: lkdt-mcq-12
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-thu-dong
+  level: vd
+  skill: compute
+  stem: 'Dòng 20 mA chạy qua điện trở 220 ôm. Điện áp hai đầu điện trở là bao nhiêu?'
+  mcq:
+    options:
+      - '4,4 V'
+      - '11 V'
+      - '240 V'
+      - '0,09 V'
+    correct: A
+  explanation: 'Đáp án A đúng: $U = I \\cdot R = 0{,}02 \\cdot 220 = 4{,}4$ V. B lấy 220/20. C lấy 220 + 20. D lấy 20/220 mà quên đổi mA.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: lkdt-tf4-03
+  type: tf4
+  topicId: linh-kien-dien-tu
+  level: th
+  stem: 'Cho các nhận định về IC và ứng dụng. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'IC tích hợp nhiều linh kiện trên một chip bán dẫn.'
+        isTrue: true
+        explanation: 'Đúng theo định nghĩa.'
+      - key: b
+        text: 'Dùng IC giúp mạch gọn nhẹ và tin cậy hơn linh kiện rời.'
+        isTrue: true
+        explanation: 'Đúng với ưu điểm của IC.'
+      - key: c
+        text: 'Transistor trong mạch LED chỉ để trang trí.'
+        isTrue: false
+        explanation: 'Sai: nó làm khóa đóng/ngắt dòng LED.'
+      - key: d
+        text: 'Đọc số liệu trên thân linh kiện giúp chọn đúng trị số.'
+        isTrue: true
+        explanation: 'Đúng theo yêu cầu nhận biết, đọc linh kiện.'
+  explanation: 'Các ý a, b, d đúng; ý c sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]

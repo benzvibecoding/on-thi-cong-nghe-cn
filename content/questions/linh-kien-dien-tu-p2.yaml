@@ -1,0 +1,105 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: lkdt-mcq-05
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-thu-dong
+  level: nb
+  skill: recall
+  stem: 'Cuộn cảm có tính chất cơ bản nào?'
+  mcq:
+    options:
+      - 'Chống lại sự biến thiên của dòng điện'
+      - 'Cho dòng điện đi qua một chiều duy nhất'
+      - 'Phát sáng khi có dòng điện'
+      - 'Tích điện rồi phóng điện'
+    correct: A
+  explanation: 'Đáp án A đúng. B là diode, C là LED, D là tụ điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: lkdt-mcq-06
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-ban-dan
+  level: nb
+  skill: recall
+  stem: 'LED là linh kiện gì?'
+  mcq:
+    options:
+      - 'Điện trở phát sáng'
+      - 'Diode phát sáng khi có dòng thuận đi qua'
+      - 'Tụ điện phát sáng'
+      - 'Công tắc phát sáng'
+    correct: B
+  explanation: 'Đáp án B đúng. A, C, D sai bản chất linh kiện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: lkdt-mcq-07
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-thu-dong
+  level: th
+  skill: troubleshoot
+  stem: 'Mắc một tụ điện vào nguồn một chiều 12 V ổn định. Hiện tượng nào xảy ra?'
+  mcq:
+    options:
+      - 'Tụ dẫn dòng một chiều mãi mãi'
+      - 'Tụ nạp tới khoảng 12 V rồi chặn, không cho dòng một chiều đi qua nữa'
+      - 'Tụ nổ ngay lập tức'
+      - 'Tụ biến điện một chiều thành xoay chiều'
+    correct: B
+  explanation: 'Đáp án B đúng với tính chất chặn một chiều của tụ. A sai vì sau khi nạp không còn dòng. C sai vì đúng mức áp. D sai vì tụ không tạo xoay chiều.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: lkdt-mcq-08
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-thu-dong
+  level: vd
+  skill: compute
+  stem: 'Dòng 2 A chạy qua điện trở 3 ôm. Điện áp hai đầu điện trở là bao nhiêu?'
+  mcq:
+    options:
+      - '6 V'
+      - '1,5 V'
+      - '5 V'
+      - '0,66 V'
+    correct: A
+  explanation: 'Đáp án A đúng: $U = I \\cdot R = 2 \\cdot 3 = 6$ V. B lấy 3/2. C lấy 2 + 3. D lấy 2/3.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: lkdt-tf4-02
+  type: tf4
+  topicId: linh-kien-dien-tu
+  level: nb
+  stem: 'Cho các nhận định về linh kiện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Cuộn cảm chống lại sự biến thiên của dòng điện.'
+        isTrue: true
+        explanation: 'Đúng theo tính chất của cuộn cảm.'
+      - key: b
+        text: 'LED phát sáng mà không cần dòng điện chạy qua.'
+        isTrue: false
+        explanation: 'Sai: LED cần dòng thuận mới phát sáng.'
+      - key: c
+        text: 'Điện trở tuân theo định luật Ohm $U = I \\cdot R$.'
+        isTrue: true
+        explanation: 'Đúng với điện trở thông thường.'
+      - key: d
+        text: 'Diode phân cực ngược vẫn dẫn điện tốt như chiều thuận.'
+        isTrue: false
+        explanation: 'Sai: phân cực ngược thì diode chặn dòng.'
+  explanation: 'Các ý a, c đúng; b, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

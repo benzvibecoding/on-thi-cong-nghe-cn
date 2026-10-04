@@ -1,0 +1,108 @@
+# Seed dot 2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dtso-mcq-05
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: cong-logic
+  level: nb
+  skill: recall
+  stem: 'Ngõ ra của cổng OR hai ngõ vào bằng 0 trong trường hợp nào?'
+  mcq:
+    options:
+      - 'Khi cả hai ngõ vào đều bằng 0'
+      - 'Khi có ít nhất một ngõ vào bằng 1'
+      - 'Khi cả hai ngõ vào đều bằng 1'
+      - 'Trong mọi trường hợp'
+    correct: A
+  explanation: 'Đáp án A đúng: $Y = A + B$, chỉ 0 + 0 mới ra 0. B ra 1. C ra 1. D sai vì ngõ ra phụ thuộc ngõ vào.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtso-mcq-06
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: cong-logic
+  level: th
+  skill: interpret-diagram
+  stem: 'Xét cổng OR như hình vẽ. Với A = 0 và B = 1 thì ngõ ra Y bằng bao nhiêu?'
+  media:
+    - src: /assets/cong-or.svg
+      alt: 'Ký hiệu cổng OR hai ngõ vào A, B ở cạnh trái cong lõm và ngõ ra Y ở cạnh phải cong lồi'
+  mcq:
+    options:
+      - '0'
+      - '1'
+      - '2'
+      - 'Không xác định'
+    correct: B
+  explanation: 'Đáp án B đúng: OR ra 1 khi có ít nhất một vào là 1. C sai vì logic số chỉ có 0 và 1. D sai vì bảng chân trị xác định rõ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtso-mcq-07
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: mach-to-hop
+  level: nb
+  skill: recall
+  stem: 'Mạch tổ hợp khác mạch dãy (tuần tự) ở điểm nào?'
+  mcq:
+    options:
+      - 'Mạch tổ hợp không nhớ trạng thái trước, ngõ ra chỉ phụ thuộc ngõ vào hiện tại'
+      - 'Mạch tổ hợp luôn nhớ mọi trạng thái trước'
+      - 'Mạch tổ hợp không dùng cổng logic'
+      - 'Mạch tổ hợp chỉ làm việc với tín hiệu tương tự'
+    correct: A
+  explanation: 'Đáp án A đúng theo định nghĩa. B mô tả mạch dãy. C sai vì tổ hợp xây từ cổng logic. D sai vì mạch số làm việc với 0/1.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtso-mcq-08
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: cong-logic
+  level: vd
+  skill: recall
+  stem: 'Cổng AND ba ngõ vào ra mức 1 trong trường hợp nào?'
+  mcq:
+    options:
+      - 'Khi cả ba ngõ vào đều bằng 1'
+      - 'Khi có ít nhất một ngõ vào bằng 1'
+      - 'Khi đúng hai ngõ vào bằng 1'
+      - 'Khi cả ba ngõ vào đều bằng 0'
+    correct: A
+  explanation: 'Đáp án A đúng: AND ra 1 chỉ khi TẤT CẢ vào đều 1. B là tính chất OR. C và D cho ra 0.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]
+- id: dtso-tf4-02
+  type: tf4
+  topicId: dien-tu-so
+  level: nb
+  stem: 'Cho các nhận định về cổng logic. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Cổng NOT hai lần liên tiếp cho ra đúng mức logic ban đầu.'
+        isTrue: true
+        explanation: 'Đúng: đảo hai lần thì trở về như cũ.'
+      - key: b
+        text: 'Cổng OR hai ngõ vào ra 0 khi A = 0 và B = 0.'
+        isTrue: true
+        explanation: 'Đúng theo bảng chân trị.'
+      - key: c
+        text: 'Trong logic số, $1 + 1 = 2$.'
+        isTrue: false
+        explanation: 'Sai: đây là cộng logic OR nên $1 + 1 = 1$.'
+      - key: d
+        text: 'Cổng AND ba ngõ vào ra 1 khi chỉ một ngõ vào bằng 1.'
+        isTrue: false
+        explanation: 'Sai: cần cả ba ngõ vào đều 1.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-2]

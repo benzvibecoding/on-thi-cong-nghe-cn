@@ -1,0 +1,105 @@
+# Seed dot 3 (theo chuong trinh GDPT 2018 + de minh hoa Bo) — status draft.
+- id: dgd-mcq-09
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: thiet-bi-dien
+  level: nb
+  skill: recall
+  stem: 'Trên vỏ cầu dao điện có ghi "30 A – 250 V". Ý nghĩa của các thông số này là gì?'
+  mcq:
+    options:
+      - 'Dòng điện định mức 30 A và điện áp định mức 250 V'
+      - 'Dòng điện ngắn mạch 30 A và điện áp tối đa 250 V'
+      - 'Dòng điện quá tải 30 A và điện áp tối thiểu 250 V'
+      - 'Công suất 30 W và điện áp 250 V'
+    correct: A
+  explanation: 'Đáp án A đúng: đây là giá trị định mức để thiết bị làm việc bình thường, an toàn. B, C hiểu sai bản chất định mức. D sai đơn vị (A là dòng, không phải công suất).'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dgd-mcq-10
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: nb
+  skill: recall
+  stem: 'Sơ đồ nguyên lí và sơ đồ lắp đặt của hệ thống điện khác nhau ở điểm nào?'
+  mcq:
+    options:
+      - 'Sơ đồ nguyên lí thể hiện quan hệ điện giữa các phần tử; sơ đồ lắp đặt thể hiện vị trí, cách đi dây thực tế'
+      - 'Hai sơ đồ hoàn toàn giống nhau'
+      - 'Sơ đồ nguyên lí chỉ vẽ cho vui'
+      - 'Sơ đồ lắp đặt không cần đúng thực tế'
+    correct: A
+  explanation: 'Đáp án A đúng theo định nghĩa hai loại sơ đồ. B sai vì mục đích khác nhau. C, D sai ý nghĩa kĩ thuật.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dgd-mcq-11
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-cau-thang
+  level: th
+  skill: recall
+  stem: 'Mạch đèn cầu thang cho phép bật/tắt một bóng từ hai nơi khác nhau dùng loại công tắc nào?'
+  mcq:
+    options:
+      - 'Hai công tắc 3 cực'
+      - 'Một công tắc thường duy nhất'
+      - 'Hai cầu chì'
+      - 'Hai ổ cắm'
+    correct: A
+  explanation: 'Đáp án A đúng: hai công tắc 3 cực phối hợp điều khiển một đèn từ hai vị trí. B chỉ điều khiển một nơi. C, D không phải thiết bị điều khiển.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dgd-mcq-12
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: thiet-bi-dong-cat
+  level: vd
+  skill: troubleshoot
+  stem: 'Mạch đèn ngủ chỉ dùng bóng 60 W (dòng chưa tới 0,3 A) mà lắp aptomat 100 A. Vì sao không nên?'
+  mcq:
+    options:
+      - 'Vì aptomat quá lớn sẽ không cắt khi quá tải nhỏ, mất tác dụng bảo vệ'
+      - 'Vì aptomat lớn làm đèn sáng hơn'
+      - 'Vì aptomat lớn tốn điện hơn'
+      - 'Vì aptomat lớn không lắp vừa tủ điện'
+    correct: A
+  explanation: 'Đáp án A đúng: thiết bị bảo vệ phải phù hợp dòng mạch mới bảo vệ được. B sai vì aptomat không ảnh hưởng độ sáng. C sai vì aptomat không tiêu thụ đáng kể. D không phải lý do kĩ thuật chính.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
+- id: dgd-tf4-03
+  type: tf4
+  topicId: dien-gia-dinh
+  level: th
+  stem: 'Cho các nhận định về thiết bị và mạch trong nhà. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Thông số định mức cho biết giá trị để thiết bị làm việc bình thường, an toàn.'
+        isTrue: true
+        explanation: 'Đúng theo khái niệm thông số định mức.'
+      - key: b
+        text: 'Mạch đèn cầu thang dùng hai công tắc 3 cực.'
+        isTrue: true
+        explanation: 'Đúng theo sơ đồ mạch cầu thang.'
+      - key: c
+        text: 'Sơ đồ lắp đặt thể hiện quan hệ điện, không cần đúng vị trí thực tế.'
+        isTrue: false
+        explanation: 'Sai: đó là mô tả của sơ đồ nguyên lí; sơ đồ lắp đặt phải đúng vị trí, cách đi dây.'
+      - key: d
+        text: 'Aptomat có dòng định mức càng lớn thì bảo vệ mạch nhỏ càng tốt.'
+        isTrue: false
+        explanation: 'Sai: quá lớn sẽ không cắt khi quá tải nhỏ.'
+  explanation: 'Các ý a, b đúng; c, d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, dot-3]
