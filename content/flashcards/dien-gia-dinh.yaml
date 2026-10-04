@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: dgd-card-01
+  topicId: dien-gia-dinh
+  kind: formula
+  front: 'Viết định luật Ohm cho đoạn mạch.'
+  back: '$U = I \\cdot R$'
+- id: dgd-card-02
+  topicId: dien-gia-dinh
+  kind: formula
+  front: 'Bóng đèn 12 V – 6 W có dòng định mức bao nhiêu?'
+  back: '$I = P / U = 6 / 12 = 0{,}5$ A'
+- id: dgd-card-03
+  topicId: dien-gia-dinh
+  kind: term
+  front: 'Các đồ dùng trong nhà mắc song song hay nối tiếp? Vì sao?'
+  back: 'Mắc song song nên hoạt động độc lập: tắt một đèn không ảnh hưởng các đèn khác.'
+- id: dgd-card-04
+  topicId: dien-gia-dinh
+  kind: term
+  front: 'Công tắc và cầu chì được mắc như thế nào trong mạch nhánh?'
+  back: 'Đều mắc nối tiếp; công tắc đặt trên dây pha, cầu chì ở đầu mạch nhánh.'

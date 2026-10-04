@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: dttt-card-01
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Khối chỉnh lưu trong nguồn một chiều làm gì?'
+  back: 'Biến điện xoay chiều thành điện một chiều nhấp nhô.'
+- id: dttt-card-02
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Tụ lọc sau chỉnh lưu có tác dụng gì?'
+  back: 'Làm phẳng điện áp nhấp nhô; mất tụ lọc thì gợn lớn, thiết bị chạy không ổn định.'
+- id: dttt-card-03
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Khối ổn áp giữ vai trò gì?'
+  back: 'Giữ điện áp ra ổn định khi tải hoặc điện lưới thay đổi.'
+- id: dttt-card-04
+  topicId: dien-tu-tuong-tu
+  kind: term
+  front: 'Nêu đúng trình tự các khối của nguồn một chiều.'
+  back: 'Hạ áp → chỉnh lưu → lọc → ổn áp.'

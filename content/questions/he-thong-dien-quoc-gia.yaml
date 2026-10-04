@@ -1,0 +1,105 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: htd-mcq-01
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: nb
+  skill: recall
+  stem: 'Ba bộ phận chính của hệ thống điện quốc gia là gì?'
+  mcq:
+    options:
+      - 'Nguồn điện, lưới điện, hộ tiêu thụ'
+      - 'Pin, ắc quy, máy phát dự phòng'
+      - 'Công tắc, ổ cắm, bóng đèn'
+      - 'Nhà máy, cửa hàng, chợ điện'
+    correct: A
+  explanation: 'Đáp án A đúng. B chỉ là các nguồn dự phòng nhỏ. C là thiết bị trong nhà. D không phải khái niệm kĩ thuật của hệ thống điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: htd-mcq-02
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: nb
+  skill: recall
+  stem: 'Máy biến áp trong hệ thống điện có nhiệm vụ gì?'
+  mcq:
+    options:
+      - 'Sản xuất điện năng'
+      - 'Thay đổi mức điện áp của dòng điện xoay chiều'
+      - 'Tiêu thụ điện năng'
+      - 'Đo công suất tiêu thụ của hộ gia đình'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì điện do nhà máy sản xuất. C sai vì máy biến áp không phải tải tiêu thụ chính. D là nhiệm vụ của công tơ điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: htd-mcq-03
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: th
+  skill: recall
+  stem: 'Vì sao truyền tải điện đi xa thường dùng điện áp cao?'
+  mcq:
+    options:
+      - 'Vì điện áp cao làm dây dẫn nhẹ hơn'
+      - 'Vì với cùng công suất truyền tải, điện áp cao làm dòng điện nhỏ nên hao phí tỏa nhiệt giảm'
+      - 'Vì điện áp cao giúp sản xuất thêm điện năng'
+      - 'Vì điện áp cao an toàn hơn cho người dân'
+    correct: B
+  explanation: 'Đáp án B đúng theo $P = U \\cdot I$ và $P_{hp} = I^2 \\cdot R$. A sai vì khối lượng dây không đổi. C sai vì không tạo thêm điện. D sai vì điện áp cao nguy hiểm hơn, phải cách ly.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: htd-mcq-04
+  type: mcq
+  topicId: he-thong-dien-quoc-gia
+  subtopicId: san-xuat-truyen-tai
+  level: vd
+  skill: compute
+  stem: 'Một đường dây truyền tải cùng một công suất. Nếu điện áp truyền tải tăng gấp 2 lần thì hao phí tỏa nhiệt trên đường dây thay đổi thế nào (coi điện trở dây không đổi)?'
+  mcq:
+    options:
+      - 'Tăng gấp 2 lần'
+      - 'Giảm còn một nửa'
+      - 'Giảm còn một phần tư'
+      - 'Không thay đổi'
+    correct: C
+  explanation: 'Đáp án C đúng: $P = U \\cdot I$ nên U tăng 2 lần thì I giảm 2 lần; $P_{hp} = I^2 \\cdot R$ nên hao phí giảm 4 lần. Các đáp án còn lại tính sai quan hệ bình phương.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: htd-tf4-01
+  type: tf4
+  topicId: he-thong-dien-quoc-gia
+  level: th
+  stem: 'Cho các nhận định về lưới điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Lưới điện gồm đường dây và trạm biến áp để truyền tải, phân phối điện năng.'
+        isTrue: true
+        explanation: 'Đúng theo định nghĩa lưới điện.'
+      - key: b
+        text: 'Hao phí tỏa nhiệt trên đường dây tỉ lệ với bình phương dòng điện.'
+        isTrue: true
+        explanation: 'Đúng theo công thức $P_{hp} = I^2 \\cdot R$.'
+      - key: c
+        text: 'Điện áp càng cao thì càng nên đưa trực tiếp tới ổ cắm gia đình.'
+        isTrue: false
+        explanation: 'Sai: tới người dùng phải hạ áp để bảo đảm an toàn.'
+      - key: d
+        text: 'Hộ tiêu thụ gồm công nghiệp, nông nghiệp, dịch vụ và dân dụng.'
+        isTrue: true
+        explanation: 'Đúng theo phân loại hộ tiêu thụ.'
+  explanation: 'Các ý a, b, d đúng; ý c sai vì điện tới gia đình phải ở điện áp thấp an toàn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

@@ -1,0 +1,108 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dgd-mcq-01
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: nb
+  skill: recall
+  stem: 'Các đồ dùng điện trong gia đình thường được mắc với nhau theo cách nào?'
+  mcq:
+    options:
+      - 'Mắc nối tiếp'
+      - 'Mắc song song'
+      - 'Mắc hỗn hợp nối tiếp và song song bắt buộc'
+      - 'Không mắc với nhau, mỗi thiết bị một nguồn riêng'
+    correct: B
+  explanation: 'Đáp án B đúng: mắc song song nên các thiết bị hoạt động độc lập. A sai vì nối tiếp sẽ làm tắt cả mạch khi một thiết bị hỏng. C và D sai với thực tế mạch điện gia đình.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dgd-mcq-02
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: th
+  skill: interpret-diagram
+  stem: 'Xét mạch điện như hình vẽ (nguồn một chiều, công tắc và hai bóng đèn mắc nối tiếp). Nếu tháo một bóng đèn ra khỏi mạch thì bóng còn lại sẽ thế nào?'
+  media:
+    - src: /assets/mach-noi-tiep.svg
+      alt: 'Sơ đồ mạch một vòng gồm nguồn một chiều ở cạnh trái, công tắc ở cạnh trên và hai bóng đèn mắc nối tiếp ở cạnh phải'
+  mcq:
+    options:
+      - 'Vẫn sáng bình thường'
+      - 'Sáng hơn vì được toàn bộ điện áp'
+      - 'Tắt vì mạch bị hở'
+      - 'Nhấp nháy liên tục'
+    correct: C
+  explanation: 'Đáp án C đúng: mạch nối tiếp chỉ có một vòng kín, tháo một đèn thì mạch hở nên đèn còn lại tắt. A và B sai vì không còn vòng kín cho dòng chạy. D không xảy ra trong mạch này.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dgd-mcq-03
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: nb
+  skill: recall
+  stem: 'Công tắc điều khiển bóng đèn trong gia đình được mắc như thế nào?'
+  mcq:
+    options:
+      - 'Mắc song song với bóng đèn'
+      - 'Mắc nối tiếp với bóng đèn, trên dây pha'
+      - 'Mắc vào dây trung tính bất kỳ'
+      - 'Không cần mắc vào mạch điện'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì song song với đèn sẽ gây ngắn mạch khi bật. C sai vì công tắc phải ngắt dây pha mới an toàn. D vô nghĩa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dgd-mcq-04
+  type: mcq
+  topicId: dien-gia-dinh
+  subtopicId: mach-dien-gia-dinh
+  level: vd
+  skill: compute
+  stem: 'Một bóng đèn có ghi 12 V – 6 W. Dòng điện định mức chạy qua bóng đèn là bao nhiêu?'
+  mcq:
+    options:
+      - '2 A'
+      - '0,5 A'
+      - '72 A'
+      - '18 A'
+    correct: B
+  explanation: 'Đáp án B đúng: $I = P / U = 6 / 12 = 0{,}5$ A. A lấy 12/6. C lấy 12 x 6. D lấy 12 + 6.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dgd-tf4-01
+  type: tf4
+  topicId: dien-gia-dinh
+  level: th
+  stem: 'Cho các nhận định về mạch điện gia đình. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Tắt một bóng đèn không làm các đèn khác trong nhà bị tắt.'
+        isTrue: true
+        explanation: 'Đúng vì các nhánh mắc song song, hoạt động độc lập.'
+      - key: b
+        text: 'Cầu chì được mắc nối tiếp ở đầu mạch nhánh để bảo vệ khi quá tải.'
+        isTrue: true
+        explanation: 'Đúng: quá dòng làm cầu chì nóng chảy, ngắt mạch.'
+      - key: c
+        text: 'Mắc càng nhiều thiết bị công suất lớn vào một ổ cắm càng an toàn.'
+        isTrue: false
+        explanation: 'Sai: gây quá tải mạch nhánh, dễ chập cháy.'
+      - key: d
+        text: 'Công tắc phải mắc nối tiếp với thiết bị cần điều khiển.'
+        isTrue: true
+        explanation: 'Đúng: nối tiếp mới đóng/ngắt được dòng qua thiết bị.'
+  explanation: 'Các ý a, b, d đúng; ý c sai vì dồn nhiều tải vào một ổ cắm gây quá tải.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

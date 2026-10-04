@@ -1,0 +1,105 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: ddc-mcq-01
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: nb
+  skill: recall
+  stem: 'Ưu điểm nổi bật nhất của điện năng so với các dạng năng lượng khác là gì?'
+  mcq:
+    options:
+      - 'Chỉ dùng được cho thắp sáng'
+      - 'Dễ chuyển đổi thành các dạng năng lượng khác và dễ truyền tải đi xa'
+      - 'Không bao giờ gây hao phí khi truyền tải'
+      - 'Chỉ sản xuất được từ than đá'
+    correct: B
+  explanation: 'Đáp án B đúng vì điện năng dễ biến đổi thành cơ, nhiệt, sáng và dễ truyền tải, phân phối. A sai vì điện năng dùng rất rộng rãi. C sai vì truyền tải luôn có hao phí. D sai vì có nhiều nguồn sản xuất điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: ddc-mcq-02
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: nb
+  skill: recall
+  stem: 'Khâu nào trong hệ thống điện có nhiệm vụ biến đổi năng lượng sơ cấp thành điện năng?'
+  mcq:
+    options:
+      - 'Truyền tải'
+      - 'Phân phối'
+      - 'Sản xuất'
+      - 'Sử dụng'
+    correct: C
+  explanation: 'Đáp án C đúng: nhà máy điện biến năng lượng sơ cấp thành điện năng. Truyền tải đưa điện đi xa, phân phối đưa điện tới người dùng, sử dụng biến điện thành dạng năng lượng cần dùng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: ddc-mcq-03
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: th
+  skill: recall
+  stem: 'Phát biểu nào phân biệt đúng "truyền tải điện" và "phân phối điện"?'
+  mcq:
+    options:
+      - 'Truyền tải đưa điện tới từng hộ gia đình, phân phối đưa điện đi xa'
+      - 'Cả hai đều là đưa điện đi xa ở điện áp cao'
+      - 'Truyền tải đưa điện đi xa ở điện áp cao, phân phối đưa điện tới nơi tiêu thụ ở điện áp thấp hơn'
+      - 'Phân phối sản xuất ra điện năng, truyền tải tiêu thụ điện năng'
+    correct: C
+  explanation: 'Đáp án C đúng. A đảo ngược hai khái niệm. B sai vì phân phối ở điện áp thấp hơn. D sai vì sản xuất thuộc về nhà máy điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: ddc-mcq-04
+  type: mcq
+  topicId: dien-dai-cuong
+  subtopicId: vai-tro-dien
+  level: vd
+  skill: real-world
+  stem: 'Nhiều nhà máy thủy điện đặt ở miền núi xa khu dân cư nhưng điện vẫn tới được mọi miền đất nước. Điều này chủ yếu nhờ khâu nào?'
+  mcq:
+    options:
+      - 'Sử dụng điện tiết kiệm của người dân'
+      - 'Truyền tải điện đi xa của hệ thống điện'
+      - 'Giảm số lượng thiết bị điện trong nhà'
+      - 'Tăng điện áp sử dụng trong gia đình'
+    correct: B
+  explanation: 'Đáp án B đúng: lưới truyền tải đưa điện từ nơi sản xuất tới nơi tiêu thụ. A và C là tiết kiệm, không giải thích việc đưa điện đi xa. D sai vì điện gia đình dùng ở điện áp thấp an toàn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: ddc-tf4-01
+  type: tf4
+  topicId: dien-dai-cuong
+  level: th
+  stem: 'Cho các nhận định về hệ thống điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Hệ thống điện gồm nguồn điện, lưới điện và các hộ tiêu thụ.'
+        isTrue: true
+        explanation: 'Đúng theo cấu trúc ba bộ phận của hệ thống điện.'
+      - key: b
+        text: 'Máy biến áp có nhiệm vụ sản xuất thêm điện năng cho lưới điện.'
+        isTrue: false
+        explanation: 'Sai: máy biến áp chỉ thay đổi mức điện áp, không sản xuất điện năng.'
+      - key: c
+        text: 'Truyền tải điện đi xa thường thực hiện ở điện áp cao để giảm hao phí.'
+        isTrue: true
+        explanation: 'Đúng: điện áp cao làm dòng điện nhỏ, hao phí tỏa nhiệt giảm.'
+      - key: d
+        text: 'Khâu sử dụng biến điện năng thành các dạng năng lượng cần thiết.'
+        isTrue: true
+        explanation: 'Đúng: ví dụ động cơ biến điện thành cơ năng, bóng đèn thành quang năng.'
+  explanation: 'Các ý a, c, d đúng; ý b sai vì máy biến áp không sản xuất điện năng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

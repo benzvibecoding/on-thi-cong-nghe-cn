@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: dtso-card-01
+  topicId: dien-tu-so
+  kind: formula
+  front: 'Viết biểu thức logic của cổng AND hai ngõ vào.'
+  back: '$Y = A \\cdot B$ (ra 1 chỉ khi cả hai vào đều 1)'
+- id: dtso-card-02
+  topicId: dien-tu-so
+  kind: formula
+  front: 'Viết biểu thức logic của cổng OR. $1 + 1$ bằng mấy?'
+  back: '$Y = A + B$; trong logic $1 + 1 = 1$ (không phải 2)'
+- id: dtso-card-03
+  topicId: dien-tu-so
+  kind: formula
+  front: 'Viết biểu thức logic của cổng NOT.'
+  back: '$Y = \\overline{A}$ (đảo mức: vào 0 ra 1, vào 1 ra 0)'
+- id: dtso-card-04
+  topicId: dien-tu-so
+  kind: symbol
+  front: 'Mô tả ký hiệu cổng AND hai ngõ vào.'
+  back: 'Hình chữ D nằm ngang: cạnh trái thẳng với hai đường vào A, B; cạnh phải cong với đường ra Y ở giữa.'

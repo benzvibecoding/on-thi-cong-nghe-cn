@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: htd-card-01
+  topicId: he-thong-dien-quoc-gia
+  kind: formula
+  front: 'Viết công thức liên hệ công suất, điện áp và dòng điện.'
+  back: '$P = U \\cdot I$'
+- id: htd-card-02
+  topicId: he-thong-dien-quoc-gia
+  kind: formula
+  front: 'Viết công thức hao phí tỏa nhiệt trên đường dây.'
+  back: '$P_{hp} = I^2 \\cdot R$ (tỉ lệ với bình phương dòng điện)'
+- id: htd-card-03
+  topicId: he-thong-dien-quoc-gia
+  kind: term
+  front: 'Máy biến áp dùng để làm gì?'
+  back: 'Thay đổi mức điện áp của dòng điện xoay chiều; không sản xuất điện năng.'
+- id: htd-card-04
+  topicId: he-thong-dien-quoc-gia
+  kind: term
+  front: 'Vì sao nâng điện áp truyền tải thì hao phí giảm?'
+  back: 'Cùng công suất $P = U \\cdot I$, U tăng thì I giảm; hao phí $P_{hp} = I^2 \\cdot R$ giảm theo bình phương.'

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "taxonomyVersion": 1,
+  "packs": [
+    {
+      "topicId": "dien-dai-cuong",
+      "title": "Giới thiệu chung về kĩ thuật điện",
+      "count": 5,
+      "cards": 4,
+      "hash": "1dd91024a2c3e9b5"
+    },
+    {
+      "topicId": "he-thong-dien-quoc-gia",
+      "title": "Hệ thống điện quốc gia",
+      "count": 5,
+      "cards": 4,
+      "hash": "74bf0c37fb010715"
+    },
+    {
+      "topicId": "dien-gia-dinh",
+      "title": "Hệ thống điện trong gia đình",
+      "count": 5,
+      "cards": 4,
+      "hash": "b867d60405293ef5"
+    },
+    {
+      "topicId": "an-toan-tiet-kiem",
+      "title": "An toàn và tiết kiệm điện năng",
+      "count": 5,
+      "cards": 4,
+      "hash": "e5ba46ec73ec2c18"
+    },
+    {
+      "topicId": "dien-tu-dai-cuong",
+      "title": "Giới thiệu chung về kĩ thuật điện tử",
+      "count": 5,
+      "cards": 4,
+      "hash": "b6adb564119f58c2"
+    },
+    {
+      "topicId": "linh-kien-dien-tu",
+      "title": "Linh kiện điện tử",
+      "count": 5,
+      "cards": 4,
+      "hash": "b611711e2cd521b5"
+    },
+    {
+      "topicId": "dien-tu-tuong-tu",
+      "title": "Điện tử tương tự",
+      "count": 5,
+      "cards": 4,
+      "hash": "5231b5b3c7c172dc"
+    },
+    {
+      "topicId": "dien-tu-so",
+      "title": "Điện tử số",
+      "count": 5,
+      "cards": 4,
+      "hash": "61b74a70b49e2b52"
+    },
+    {
+      "topicId": "vi-dieu-khien",
+      "title": "Vi điều khiển",
+      "count": 5,
+      "cards": 4,
+      "hash": "0a0a9a3a25c1f25a"
+    }
+  ]
+}

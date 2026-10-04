@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="t1 t2">
+  <title id="t1">Mạch một vòng gồm nguồn một chiều, công tắc và hai bóng đèn mắc nối tiếp</title>
+  <desc id="t2">Hình chữ nhật vẽ bằng dây dẫn. Cạnh trái là nguồn một chiều ký hiệu hai vạch dài ngắn song song. Cạnh trên có công tắc. Cạnh phải có hai bóng đèn tròn mắc nối tiếp nhau.</desc>
+  <rect x="40" y="30" width="240" height="100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="40" y1="80" x2="52" y2="80" stroke="currentColor" stroke-width="4"/>
+  <line x1="40" y1="92" x2="64" y2="92" stroke="currentColor" stroke-width="2"/>
+  <text x="30" y="145" font-size="11" fill="currentColor">Nguồn một chiều</text>
+  <line x1="140" y1="30" x2="170" y2="30" stroke="currentColor" stroke-width="2"/>
+  <line x1="170" y1="30" x2="188" y2="18" stroke="currentColor" stroke-width="2"/>
+  <circle cx="140" cy="30" r="3" fill="currentColor"/>
+  <circle cx="188" cy="30" r="3" fill="currentColor"/>
+  <text x="140" y="20" font-size="11" fill="currentColor">Công tắc</text>
+  <circle cx="280" cy="60" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="272" y1="52" x2="288" y2="68" stroke="currentColor" stroke-width="2"/>
+  <line x1="288" y1="52" x2="272" y2="68" stroke="currentColor" stroke-width="2"/>
+  <circle cx="280" cy="105" r="12" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="272" y1="97" x2="288" y2="113" stroke="currentColor" stroke-width="2"/>
+  <line x1="288" y1="97" x2="272" y2="113" stroke="currentColor" stroke-width="2"/>
+  <text x="228" y="145" font-size="11" fill="currentColor">Hai đèn mắc nối tiếp</text>
+</svg>

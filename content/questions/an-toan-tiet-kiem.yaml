@@ -1,0 +1,105 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: attk-mcq-01
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: nb
+  skill: recall
+  stem: 'Việc đầu tiên phải làm trước khi sửa chữa mạch điện trong nhà là gì?'
+  mcq:
+    options:
+      - 'Ngắt nguồn điện của mạch cần sửa'
+      - 'Đeo găng tay vải thông thường'
+      - 'Bật tất cả thiết bị để kiểm tra'
+      - 'Dùng tay ướt để dễ thao tác'
+    correct: A
+  explanation: 'Đáp án A đúng. B sai vì găng tay vải không cách điện. C sai vì phải ngắt điện khi sửa. D rất nguy hiểm vì nước dẫn điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: attk-mcq-02
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: nb
+  skill: recall
+  stem: 'Hành động nào bị cấm vì dễ gây tai nạn điện?'
+  mcq:
+    options:
+      - 'Ngắt aptomat trước khi thay bóng đèn'
+      - 'Thả diều gần đường dây điện'
+      - 'Dùng bút thử điện để kiểm tra có điện hay không'
+      - 'Nối đất vỏ kim loại của máy giặt'
+    correct: B
+  explanation: 'Đáp án B đúng vì diều/dây diều có thể chạm đường dây gây phóng điện. A, C, D đều là hành động an toàn hoặc đúng kĩ thuật.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: attk-mcq-03
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: an-toan-dien
+  level: th
+  skill: troubleshoot
+  stem: 'Phát biểu nào đúng về aptomat thường trong tủ điện gia đình?'
+  mcq:
+    options:
+      - 'Chống được mọi trường hợp điện giật'
+      - 'Tự cắt mạch khi quá tải hoặc ngắn mạch'
+      - 'Tạo ra điện năng khi mất điện lưới'
+      - 'Giảm tiền điện hằng tháng'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì chống giật cần thiết bị chuyên dụng. C sai vì aptomat không phát điện. D sai vì aptomat không làm giảm điện năng tiêu thụ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: attk-mcq-04
+  type: mcq
+  topicId: an-toan-tiet-kiem
+  subtopicId: tiet-kiem-dien
+  level: vd
+  skill: troubleshoot
+  stem: 'Một ổ cắm cấp cho nhiều thiết bị công suất lớn bỗng nóng lên và có mùi khét. Xử lý đúng đầu tiên là gì?'
+  mcq:
+    options:
+      - 'Tiếp tục dùng vì mùi sẽ hết'
+      - 'Dội nước vào ổ cắm cho nguội'
+      - 'Ngắt bớt thiết bị, ngắt nguồn ổ cắm và kiểm tra trước khi dùng tiếp'
+      - 'Dùng tay giữ chặt phích cắm cho chắc'
+    correct: C
+  explanation: 'Đáp án C đúng: đây là dấu hiệu quá tải, phải giảm tải và ngắt nguồn kiểm tra. A sai vì nguy cơ cháy. B rất nguy hiểm vì nước dẫn điện. D sai vì ổ nóng chứng tỏ tiếp xúc/tải có vấn đề.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: attk-tf4-01
+  type: tf4
+  topicId: an-toan-tiet-kiem
+  level: th
+  stem: 'Cho các nhận định về an toàn và tiết kiệm điện. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Dùng tay ướt bật công tắc điện là an toàn.'
+        isTrue: false
+        explanation: 'Sai: nước dẫn điện nên dễ bị điện giật.'
+      - key: b
+        text: 'Dùng đèn LED thay đèn sợi đốt giúp tiết kiệm điện năng.'
+        isTrue: true
+        explanation: 'Đúng: LED hiệu suất sáng cao hơn nhiều so với sợi đốt.'
+      - key: c
+        text: 'Nối đất vỏ kim loại của thiết bị điện giúp giảm nguy cơ điện giật khi rò điện.'
+        isTrue: true
+        explanation: 'Đúng: dòng rò thoát xuống đất thay vì qua người.'
+      - key: d
+        text: 'Tắt thiết bị khi không sử dụng giúp tiết kiệm điện.'
+        isTrue: true
+        explanation: 'Đúng: tránh tiêu thụ điện chờ và điện vô ích.'
+  explanation: 'Ý a sai; các ý b, c, d đúng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

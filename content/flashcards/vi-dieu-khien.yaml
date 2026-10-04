@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: vdk-card-01
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Vi điều khiển tích hợp những gì trên một chip?'
+  back: 'CPU, bộ nhớ và các cổng vào/ra.'
+- id: vdk-card-02
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Bộ nhớ flash của vi điều khiển chứa gì?'
+  back: 'Chứa chương trình điều khiển đã nạp.'
+- id: vdk-card-03
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Nêu luồng hoạt động của hệ thống quạt tự động.'
+  back: 'Cảm biến nhiệt → vi điều khiển so sánh với ngưỡng → bật/tắt quạt.'
+- id: vdk-card-04
+  topicId: vi-dieu-khien
+  kind: term
+  front: 'Mạch VĐK đọc cảm biến sai lung tung: kiểm tra gì đầu tiên?'
+  back: 'Nối đất chung (GND) giữa vi điều khiển và module cảm biến.'

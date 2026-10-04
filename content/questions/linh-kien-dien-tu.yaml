@@ -1,0 +1,105 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: lkdt-mcq-01
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-ban-dan
+  level: nb
+  skill: recall
+  stem: 'Diode có tính chất dẫn điện như thế nào?'
+  mcq:
+    options:
+      - 'Dẫn điện cả hai chiều như nhau'
+      - 'Chỉ cho dòng điện đi qua theo một chiều nhất định'
+      - 'Không bao giờ cho dòng điện đi qua'
+      - 'Tự phát sáng mà không cần dòng điện'
+    correct: B
+  explanation: 'Đáp án B đúng: diode phân cực thuận thì dẫn, phân cực ngược thì chặn. A là tính chất của dây dẫn. C sai vì chiều thuận diode dẫn. D sai vì LED phát sáng nhờ dòng thuận.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: lkdt-mcq-02
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-thu-dong
+  level: nb
+  skill: recall
+  stem: 'Linh kiện nào có khả năng tích điện rồi phóng điện?'
+  mcq:
+    options:
+      - 'Điện trở'
+      - 'Tụ điện'
+      - 'Công tắc'
+      - 'Cầu chì'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì điện trở hạn dòng, tiêu tán nhiệt. C chỉ đóng/ngắt mạch. D chỉ bảo vệ quá dòng.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: lkdt-mcq-03
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-ban-dan
+  level: th
+  skill: troubleshoot
+  stem: 'Vì sao LED trong mạch báo hiệu thường được mắc nối tiếp với một điện trở?'
+  mcq:
+    options:
+      - 'Để LED sáng hơn nhiều lần'
+      - 'Để hạn chế dòng qua LED, tránh hỏng do quá dòng'
+      - 'Để đổi màu ánh sáng của LED'
+      - 'Để LED phát ra âm thanh'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì điện trở làm giảm dòng nên LED sáng vừa phải, bền hơn. C sai vì màu do chất bán dẫn quyết định. D vô nghĩa.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: lkdt-mcq-04
+  type: mcq
+  topicId: linh-kien-dien-tu
+  subtopicId: linh-kien-thu-dong
+  level: vd
+  skill: compute
+  stem: 'Đặt điện áp 5 V vào hai đầu điện trở 10 ôm. Dòng điện qua điện trở là bao nhiêu?'
+  mcq:
+    options:
+      - '50 A'
+      - '2 A'
+      - '0,5 A'
+      - '15 A'
+    correct: C
+  explanation: 'Đáp án C đúng: $I = U / R = 5 / 10 = 0{,}5$ A. A lấy 5 x 10. B lấy 10/5. D lấy 10 + 5.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: lkdt-tf4-01
+  type: tf4
+  topicId: linh-kien-dien-tu
+  level: th
+  stem: 'Cho các nhận định về linh kiện điện tử. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Điện trở có chức năng hạn chế dòng điện và chia điện áp.'
+        isTrue: true
+        explanation: 'Đúng theo định luật Ohm và ứng dụng chia áp.'
+      - key: b
+        text: 'Tụ điện chặn dòng một chiều và cho tín hiệu xoay chiều đi qua.'
+        isTrue: true
+        explanation: 'Đúng với tính chất cơ bản của tụ điện.'
+      - key: c
+        text: 'Mắc ngược diode trong mạch cần dẫn thuận thì mạch vẫn hoạt động bình thường.'
+        isTrue: false
+        explanation: 'Sai: diode phân cực ngược thì chặn dòng, mạch không hoạt động.'
+      - key: d
+        text: 'Transistor có thể dùng làm khóa điện tử hoặc khuếch đại tín hiệu.'
+        isTrue: true
+        explanation: 'Đúng: hai ứng dụng cơ bản của transistor.'
+  explanation: 'Các ý a, b, d đúng; ý c sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

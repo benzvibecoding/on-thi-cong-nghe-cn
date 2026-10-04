@@ -1,0 +1,105 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dttt-mcq-01
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: nguon-mot-chieu
+  level: nb
+  skill: recall
+  stem: 'Trong nguồn một chiều, khối nào biến điện xoay chiều thành điện một chiều nhấp nhô?'
+  mcq:
+    options:
+      - 'Khối hạ áp'
+      - 'Khối chỉnh lưu'
+      - 'Khối lọc'
+      - 'Khối ổn áp'
+    correct: B
+  explanation: 'Đáp án B đúng: diode chỉnh lưu đổi chiều dòng thành một chiều nhấp nhô. Hạ áp giảm mức áp, lọc làm phẳng, ổn áp giữ áp ra ổn định.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dttt-mcq-02
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: nguon-mot-chieu
+  level: nb
+  skill: recall
+  stem: 'Tụ điện lọc sau khối chỉnh lưu có tác dụng gì?'
+  mcq:
+    options:
+      - 'Làm phẳng điện áp nhấp nhô'
+      - 'Tăng điện áp lên gấp đôi'
+      - 'Đảo chiều dòng điện'
+      - 'Phát sáng báo hiệu'
+    correct: A
+  explanation: 'Đáp án A đúng. B sai vì tụ lọc không nhân áp theo nghĩa đó. C sai vì chỉnh lưu đã định chiều. D là nhiệm vụ của LED báo nguồn.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dttt-mcq-03
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: nguon-mot-chieu
+  level: th
+  skill: troubleshoot
+  stem: 'Một nguồn một chiều bị mất tụ lọc. Hiện tượng nào sẽ xảy ra?'
+  mcq:
+    options:
+      - 'Điện áp ra phẳng tuyệt đối'
+      - 'Điện áp ra nhấp nhô lớn, thiết bị chạy không ổn định'
+      - 'Điện áp ra đổi thành xoay chiều hình sin chuẩn'
+      - 'Không có gì thay đổi'
+    correct: B
+  explanation: 'Đáp án B đúng. A sai vì thiếu tụ thì gợn lớn. C sai vì sau chỉnh lưu vẫn là một chiều nhấp nhô. D sai vì tụ lọc ảnh hưởng rõ rệt.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dttt-mcq-04
+  type: mcq
+  topicId: dien-tu-tuong-tu
+  subtopicId: khu-ech-dai
+  level: vd
+  skill: troubleshoot
+  stem: 'Bộ nguồn một chiều của loa dùng lâu ngày cho điện áp ra yếu và gợn lớn. Linh kiện cần kiểm tra đầu tiên là gì?'
+  mcq:
+    options:
+      - 'Tụ điện lọc nguồn'
+      - 'Vỏ máy'
+      - 'Dây ăng ten'
+      - 'Nút chỉnh âm lượng'
+    correct: A
+  explanation: 'Đáp án A đúng: tụ lọc khô/hỏng sau thời gian dài gây gợn lớn, sụt áp. B, C, D không liên quan tới chất lượng nguồn một chiều.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dttt-tf4-01
+  type: tf4
+  topicId: dien-tu-tuong-tu
+  level: th
+  stem: 'Cho các nhận định về mạch tương tự. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Mạch khuếch đại làm tín hiệu nhỏ thành lớn hơn nhưng giữ nguyên dạng sóng.'
+        isTrue: true
+        explanation: 'Đúng theo định nghĩa khuếch đại.'
+      - key: b
+        text: 'Mạch khuếch đại tự tạo thêm năng lượng mà không cần nguồn nuôi.'
+        isTrue: false
+        explanation: 'Sai: năng lượng lấy từ nguồn nuôi, tuân thủ bảo toàn năng lượng.'
+      - key: c
+        text: 'Trình tự đúng của nguồn một chiều là hạ áp, chỉnh lưu, lọc, ổn áp.'
+        isTrue: true
+        explanation: 'Đúng theo sơ đồ khối nguồn một chiều.'
+      - key: d
+        text: 'Khối ổn áp giữ điện áp ra ổn định khi tải hoặc điện lưới thay đổi.'
+        isTrue: true
+        explanation: 'Đúng với nhiệm vụ của khối ổn áp.'
+  explanation: 'Các ý a, c, d đúng; ý b sai vì khuếch đại cần nguồn nuôi.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

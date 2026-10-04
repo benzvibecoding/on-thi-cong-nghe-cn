@@ -1,0 +1,77 @@
+# Taxonomy CNCN — NGUON SU THAT DUY NHAT cho chu de.
+# Trong so blueprint mac dinh chia deu; KHONG phai so lieu chinh thuc cua Bo.
+# [CAN KIEM TRA] trong so thuc te khi co de minh hoa 2027.
+version: 1
+topics:
+  - id: dien-dai-cuong
+    title: Giới thiệu chung về kĩ thuật điện
+    weight: 1
+    subtopics:
+      - id: vai-tro-dien
+        title: Vai trò của kĩ thuật điện
+      - id: nghe-dien
+        title: Một số ngành nghề trong kĩ thuật điện
+  - id: he-thong-dien-quoc-gia
+    title: Hệ thống điện quốc gia
+    weight: 1
+    subtopics:
+      - id: san-xuat-truyen-tai
+        title: Sản xuất và truyền tải điện năng
+      - id: phan-phoi-su-dung
+        title: Phân phối và sử dụng điện năng
+  - id: dien-gia-dinh
+    title: Hệ thống điện trong gia đình
+    weight: 1
+    subtopics:
+      - id: mach-dien-gia-dinh
+        title: Mạch điện trong gia đình
+      - id: thiet-bi-dong-cat
+        title: Thiết bị đóng cắt và bảo vệ
+  - id: an-toan-tiet-kiem
+    title: An toàn và tiết kiệm điện năng
+    weight: 1
+    subtopics:
+      - id: an-toan-dien
+        title: An toàn điện
+      - id: tiet-kiem-dien
+        title: Tiết kiệm điện năng
+  - id: dien-tu-dai-cuong
+    title: Giới thiệu chung về kĩ thuật điện tử
+    weight: 1
+    subtopics:
+      - id: vai-tro-dien-tu
+        title: Vai trò của kĩ thuật điện tử
+      - id: mach-dien-tu-coban
+        title: Mạch điện tử cơ bản
+  - id: linh-kien-dien-tu
+    title: Linh kiện điện tử
+    weight: 1
+    subtopics:
+      - id: linh-kien-thu-dong
+        title: Điện trở, tụ điện, cuộn cảm
+      - id: linh-kien-ban-dan
+        title: Diode, transistor
+  - id: dien-tu-tuong-tu
+    title: Điện tử tương tự
+    weight: 1
+    subtopics:
+      - id: khu-ech-dai
+        title: Mạch khuếch đại
+      - id: nguon-mot-chieu
+        title: Nguồn một chiều
+  - id: dien-tu-so
+    title: Điện tử số
+    weight: 1
+    subtopics:
+      - id: cong-logic
+        title: Cổng logic cơ bản
+      - id: mach-to-hop
+        title: Mạch tổ hợp
+  - id: vi-dieu-khien
+    title: Vi điều khiển
+    weight: 1
+    subtopics:
+      - id: cau-truc-vdk
+        title: Cấu trúc vi điều khiển
+      - id: ung-dung-vdk
+        title: Ứng dụng vi điều khiển

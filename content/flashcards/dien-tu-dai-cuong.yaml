@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: dtdc-card-01
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Tín hiệu tương tự là gì? Cho ví dụ.'
+  back: 'Tín hiệu biến thiên liên tục theo thời gian, ví dụ tiếng nói từ micro.'
+- id: dtdc-card-02
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Tín hiệu số là gì? Cho ví dụ.'
+  back: 'Tín hiệu chỉ nhận các mức rời rạc (thường 0 và 1), ví dụ trạng thái đóng/ngắt của nút nhấn.'
+- id: dtdc-card-03
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Khối khuếch đại trong hệ thống micro – loa làm gì?'
+  back: 'Làm tín hiệu điện từ micro lớn hơn nhưng giữ nguyên dạng sóng.'
+- id: dtdc-card-04
+  topicId: dien-tu-dai-cuong
+  kind: term
+  front: 'Kĩ thuật điện khác kĩ thuật điện tử ở điểm nào?'
+  back: 'Kĩ thuật điện chủ yếu về năng lượng công suất lớn; điện tử chủ yếu về tín hiệu, thông tin và điều khiển.'

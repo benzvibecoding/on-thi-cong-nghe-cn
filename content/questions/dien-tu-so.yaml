@@ -1,0 +1,108 @@
+# Seed M1-M2 — status draft, [CAN GIAO VIEN DUYET]. Khong dung trong Thi thu.
+- id: dtso-mcq-01
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: cong-logic
+  level: nb
+  skill: recall
+  stem: 'Ngõ ra của cổng AND hai ngõ vào bằng 1 trong trường hợp nào?'
+  mcq:
+    options:
+      - 'Khi tất cả các ngõ vào đều bằng 1'
+      - 'Khi có ít nhất một ngõ vào bằng 1'
+      - 'Khi tất cả các ngõ vào đều bằng 0'
+      - 'Trong mọi trường hợp'
+    correct: A
+  explanation: 'Đáp án A đúng: $Y = A \\cdot B$. B là tính chất của cổng OR. C cho ra 0. D sai vì ngõ ra phụ thuộc ngõ vào.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dtso-mcq-02
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: cong-logic
+  level: th
+  skill: interpret-diagram
+  stem: 'Xét cổng AND như hình vẽ. Với A = 1 và B = 0 thì ngõ ra Y bằng bao nhiêu?'
+  media:
+    - src: /assets/cong-and.svg
+      alt: 'Ký hiệu cổng AND hai ngõ vào A, B ở cạnh trái thẳng và ngõ ra Y ở cạnh phải cong'
+  mcq:
+    options:
+      - '0'
+      - '1'
+      - '2'
+      - 'Không xác định'
+    correct: A
+  explanation: 'Đáp án A đúng: AND chỉ ra 1 khi cả hai vào đều 1; ở đây B = 0 nên Y = 0. C sai vì logic số chỉ có 0 và 1. D sai vì bảng chân trị xác định rõ.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dtso-mcq-03
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: cong-logic
+  level: nb
+  skill: recall
+  stem: 'Cổng NOT có chức năng gì?'
+  mcq:
+    options:
+      - 'Đảo mức logic: vào 0 ra 1, vào 1 ra 0'
+      - 'Cộng hai số nhị phân'
+      - 'Khuếch đại tín hiệu tương tự'
+      - 'Tích trữ điện năng'
+    correct: A
+  explanation: 'Đáp án A đúng ($Y = \\overline{A}$). B là mạch cộng. C thuộc điện tử tương tự. D là tụ điện.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dtso-mcq-04
+  type: mcq
+  topicId: dien-tu-so
+  subtopicId: mach-to-hop
+  level: vd
+  skill: real-world
+  stem: 'Chuông báo động của một phòng thí nghiệm chỉ kêu khi cửa mở (C = 1) VÀ hệ thống đã bật (H = 1). Nên dùng cổng logic nào?'
+  mcq:
+    options:
+      - 'Cổng AND'
+      - 'Cổng OR'
+      - 'Cổng NOT'
+      - 'Không dùng cổng logic nào'
+    correct: A
+  explanation: 'Đáp án A đúng vì yêu cầu cả hai điều kiện đồng thời. B sai vì OR kêu khi chỉ một điều kiện đúng. C chỉ đảo một tín hiệu. D sai vì đây đúng là bài toán tổ hợp.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]
+- id: dtso-tf4-01
+  type: tf4
+  topicId: dien-tu-so
+  level: th
+  stem: 'Cho các nhận định về mạch số. Xét tính đúng/sai của từng ý.'
+  tf4:
+    statements:
+      - key: a
+        text: 'Cổng OR ra mức 1 khi có ít nhất một ngõ vào bằng 1.'
+        isTrue: true
+        explanation: 'Đúng theo bảng chân trị cổng OR.'
+      - key: b
+        text: 'Trong phép toán logic OR, $1 + 1 = 1$.'
+        isTrue: true
+        explanation: 'Đúng: đây là cộng logic, không phải cộng số học.'
+      - key: c
+        text: 'Mạch tổ hợp có ngõ ra chỉ phụ thuộc tổ hợp ngõ vào ở hiện tại.'
+        isTrue: true
+        explanation: 'Đúng theo định nghĩa mạch tổ hợp.'
+      - key: d
+        text: 'Cổng AND hai ngõ vào ra mức 1 khi A = 1 và B = 0.'
+        isTrue: false
+        explanation: 'Sai: AND cần cả hai vào đều 1 mới ra 1.'
+  explanation: 'Các ý a, b, c đúng; ý d sai.'
+  source: { kind: original }
+  status: draft
+  version: 1
+  tags: [seed, m2]

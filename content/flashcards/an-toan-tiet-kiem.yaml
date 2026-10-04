@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: attk-card-01
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Việc đầu tiên trước khi sửa chữa mạch điện là gì?'
+  back: 'Ngắt nguồn điện của mạch cần sửa.'
+- id: attk-card-02
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Các bước sơ cứu người bị điện giật?'
+  back: 'Ngắt nguồn bằng cách an toàn (không chạm trực tiếp), gọi cấp cứu, hồi sức nếu đã được huấn luyện.'
+- id: attk-card-03
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Aptomat thường bảo vệ được những gì? Có chống mọi điện giật không?'
+  back: 'Cắt mạch khi quá tải hoặc ngắn mạch; KHÔNG chống mọi điện giật (cần thiết bị chống giật chuyên dụng).'
+- id: attk-card-04
+  topicId: an-toan-tiet-kiem
+  kind: term
+  front: 'Kể hai cách tiết kiệm điện trong gia đình.'
+  back: 'Dùng đèn LED thay sợi đốt; tắt thiết bị khi không dùng; chọn thiết bị hiệu suất cao.'

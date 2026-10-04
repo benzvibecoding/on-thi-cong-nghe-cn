@@ -1,0 +1,21 @@
+# Seed flashcards — status draft. front: mat truoc; back: mat sau (Markdown + LaTeX).
+- id: ddc-card-01
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Hệ thống điện gồm những bộ phận nào?'
+  back: 'Nguồn điện, lưới điện và các hộ tiêu thụ.'
+- id: ddc-card-02
+  topicId: dien-dai-cuong
+  kind: term
+  front: '"Truyền tải điện" khác "phân phối điện" ở điểm nào?'
+  back: 'Truyền tải đưa điện đi xa ở điện áp cao; phân phối đưa điện tới nơi tiêu thụ ở điện áp thấp hơn.'
+- id: ddc-card-03
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Khâu sản xuất điện làm nhiệm vụ gì?'
+  back: 'Biến đổi năng lượng sơ cấp thành điện năng.'
+- id: ddc-card-04
+  topicId: dien-dai-cuong
+  kind: term
+  front: 'Kể hai ngành nghề thuộc lĩnh vực kĩ thuật điện.'
+  back: 'Vận hành nhà máy điện; quản lý lưới điện; lắp đặt và bảo trì điện dân dụng.'

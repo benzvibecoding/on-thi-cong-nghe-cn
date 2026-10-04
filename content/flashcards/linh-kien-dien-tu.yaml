@@ -1,0 +1,21 @@
+# Seed flashcards — status draft.
+- id: lkdt-card-01
+  topicId: linh-kien-dien-tu
+  kind: term
+  front: 'Diode dẫn điện theo chiều nào?'
+  back: 'Chỉ một chiều: phân cực thuận thì dẫn, phân cực ngược thì chặn.'
+- id: lkdt-card-02
+  topicId: linh-kien-dien-tu
+  kind: term
+  front: 'Tụ điện có hai tính chất cơ bản nào?'
+  back: 'Tích điện rồi phóng điện; chặn dòng một chiều, cho tín hiệu xoay chiều đi qua.'
+- id: lkdt-card-03
+  topicId: linh-kien-dien-tu
+  kind: term
+  front: 'Transistor dùng để làm gì?'
+  back: 'Làm khóa điện tử (đóng/ngắt) hoặc khuếch đại tín hiệu.'
+- id: lkdt-card-04
+  topicId: linh-kien-dien-tu
+  kind: symbol
+  front: 'Mô tả ký hiệu của diode và cách đọc chiều dẫn.'
+  back: 'Tam giác chỉ chiều dòng thuận, gặp vạch đứng (cathode) thì dừng: dòng đi từ anode sang cathode.'
